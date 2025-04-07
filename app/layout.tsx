@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Provider } from "@/components/ui/provider";
+import Footer from "@/components/ui/Home/Footer";
 
 export const metadata: Metadata = {
   title: "Witia Summit",
@@ -16,6 +17,7 @@ export default function RootLayout({
     <html lang="en">
       <Provider>
         <body>{children}</body>
+        <Footer />
       </Provider>
     </html>
   );
