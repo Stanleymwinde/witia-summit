@@ -1,10 +1,9 @@
 import { Box, Flex, Heading, Text, VStack } from "@chakra-ui/react";
 import Image from "next/image";
-import aboutImage from "@/public/image.png"; // Replace with actual path to your image
 
 export default function About() {
   return (
-    <Box position="relative" minH="100vh" overflow="hidden">
+    <Box position="relative" minH="75vh" overflow="hidden">
       {/* Background Image */}
       <Box position="absolute" top={0} left={0} w="full" h="full" zIndex={-1}>
         <Image
