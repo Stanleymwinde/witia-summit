@@ -53,24 +53,19 @@ export default function Event() {
 
       {/* Co-located Shows */}
       <Box py={12} textAlign="center">
-        <Button colorScheme="blue" size="lg" mb={6} borderRadius="full" px={6}>
+        <Button colorPalette="blue" size="lg" mb={6} borderRadius="full" px={6}>
           Co-located Shows
         </Button>
-        <HStack justify="center" gap={12} flexWrap="wrap">
+        <HStack justify="center" gap={"5rem"} flexWrap="wrap" py={6}>
           <ChakraImage
-            src="/about-bg.png"
+            src="/ATS.png"
             alt="Africa Tech Show"
             h="80px"
             fit="contain"
           />
-          <ChakraImage
-            src="/about-bg.png"
-            alt="CTW Kenya"
-            h="80px"
-            fit="contain"
-          />
+          <ChakraImage src="/CTW.png" alt="CTW Kenya" h="80px" fit="contain" />
         </HStack>
-        <Button colorScheme="blue" size="lg" mt={8} borderRadius="full" px={6}>
+        <Button colorPalette="blue" size="lg" mt={8} borderRadius="full" px={6}>
           Book an Exhibition booth
         </Button>
       </Box>

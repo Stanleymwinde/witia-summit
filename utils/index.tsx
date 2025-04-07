@@ -92,15 +92,15 @@ export const PartnersData = [
   },
   {
     id: 2,
-    Logo: "/DG.png",
+    Logo: "/ATS.png",
   },
   {
     id: 3,
-    Logo: "/DG.png",
+    Logo: "/CTW.png",
   },
   {
     id: 4,
-    Logo: "/DG.png",
+    Logo: "/TK.png",
   },
   {
     id: 5,

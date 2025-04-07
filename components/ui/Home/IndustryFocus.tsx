@@ -11,10 +11,9 @@ const IndustryFocus = () => {
           fontSize={{ base: "2xl", md: "4xl" }}
           color={"white"}
           bg={"blue.500"}
-          padding={5}
+          p={4}
           borderRadius={10}
-          w={{ base: "full", md: "50%" }}
-          marginX={"auto"}
+          display="inline-block"
         >
           Industry Focus
         </Heading>

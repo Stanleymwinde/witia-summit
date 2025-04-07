@@ -1,4 +1,5 @@
 "use client";
+import { MarginX } from "@/utils";
 import {
   Box,
   Button,
@@ -52,7 +53,7 @@ export default function Home() {
           objectFit="cover"
         />
         <Box
-          bg="rgba(0, 0, 50, 0.6)"
+          bg="rgba(0, 48, 151, 0.6)"
           w="full"
           h="full"
           position="absolute"
@@ -66,19 +67,25 @@ export default function Home() {
         direction={{ base: "column", md: "row" }}
         justify="space-between"
         align={{ base: "start", md: "center" }}
-        px={{ base: 4, md: 20 }}
+        marginX={MarginX}
         py={12}
         color="white"
+        //place at the center of the screen
       >
-        <VStack align="start" gap={6} maxW={{ base: "full", md: "50%" }}>
-          <Heading fontSize={{ base: "3xl", md: "5xl" }}>
+        <Stack
+          direction="column"
+          align="start"
+          maxW={{ base: "full", md: "50%" }}
+          gap={6}
+        >
+          <Heading fontSize={{ base: "3xl", md: "6xl" }} lineHeight="taller">
             Women in STEM Africa
             <Text as="span" color="white" display="block">
               Summit 2025
             </Text>
           </Heading>
 
-          <Text fontSize="lg">
+          <Text fontSize="2xl" lineHeight="taller">
             <Text as="span" fontWeight="bold">
               THEME:
             </Text>{" "}
@@ -86,24 +93,52 @@ export default function Home() {
             AFRICA’S CHALLENGES
           </Text>
 
-          <Text fontSize="md">
+          <Text fontSize="xl">
             JULY 8<sup>th</sup> - 10<sup>th</sup> 2025
           </Text>
 
-          <Text fontSize="md">
+          <Text fontSize="2xl">
             Kenyatta International Conference Center, Nairobi
           </Text>
 
           <Stack direction={{ base: "column", sm: "row" }} gap={4}>
-            <Button colorScheme="blue">Register Now</Button>
-            <Button colorScheme="blue" variant="outline">
+            <Button
+              bg={"blue.500"}
+              _hover={{
+                cursor: "pointer",
+                filter: "brightness(110%)",
+                transform: "scale(1.05)",
+              }}
+              color="white"
+            >
+              Register Now
+            </Button>
+            <Button
+              bg={"blue.500"}
+              _hover={{
+                cursor: "pointer",
+                filter: "brightness(110%)",
+                transform: "scale(1.05)",
+              }}
+              color="white"
+              variant="outline"
+            >
               Sponsor
             </Button>
-            <Button colorScheme="blue" variant="ghost">
+            <Button
+              bg={"blue.500"}
+              _hover={{
+                cursor: "pointer",
+                filter: "brightness(110%)",
+                transform: "scale(1.05)",
+              }}
+              color="white"
+              variant="ghost"
+            >
               Learn more
             </Button>
           </Stack>
-        </VStack>
+        </Stack>
 
         {/* Countdown */}
         <Flex
@@ -116,6 +151,10 @@ export default function Home() {
           gap={6}
           wrap="wrap"
           justify="center"
+          //place at the bottom of the screen
+          position="absolute"
+          bottom={10}
+          right={10}
         >
           {[
             { label: "DAYS", value: days },

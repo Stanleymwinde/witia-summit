@@ -20,6 +20,7 @@ export default function About() {
           position="absolute"
           top={0}
           left={0}
+          overflow={"hidden"}
         />
       </Box>
 
@@ -31,9 +32,15 @@ export default function About() {
         py={16}
         color="white"
         gap={12}
+        // place at the center of the screen
+        textAlign={{ base: "center", md: "left" }}
+        overflow={"hidden"}
       >
         {/* Left Side Heading */}
         <Heading
+          lineHeight={"tall"}
+          color="white"
+          mb={4}
           fontSize={{ base: "3xl", md: "5xl" }}
           textAlign={{ base: "center", md: "left" }}
         >
@@ -48,6 +55,10 @@ export default function About() {
           borderRadius="md"
           maxW="3xl"
           fontSize={{ base: "sm", md: "md" }}
+          lineHeight={"taller"}
+          boxShadow="lg"
+          backdropFilter="blur(10px)"
+          // textAlign={{ base: "center", md: "left" }}
         >
           <Text mb={4}>
             The Women in STEM Africa Summit is not just another conference, it
