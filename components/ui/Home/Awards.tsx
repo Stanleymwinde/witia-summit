@@ -1,6 +1,6 @@
-import React from "react";
-import { Box, Grid, Heading, Text } from "@chakra-ui/react";
 import { AwardsData, MarginX } from "@/utils";
+import { Box, Grid, Heading, Text } from "@chakra-ui/react";
+import { buttonTexts } from "@/utils/buttontext"; // import the buttonTexts array
 
 const Awards = () => {
   return (
@@ -17,7 +17,7 @@ const Awards = () => {
             display="inline-block"
             fontWeight={"bold"}
           >
-            Top 5 Women innovators Awards
+            Top Women Innovators Awards
           </Heading>
 
           <Text
@@ -28,7 +28,7 @@ const Awards = () => {
             maxW={{ base: "100%", md: "50%" }}
             marginX={"auto"}
           >
-            Awards Gala to highlight the inovative spirit and leadership of
+            Awards Gala to highlight the innovative spirit and leadership of
             women in Africa, acknowledging their significant roles in driving
             sustainable development and economic growth across the continent.
           </Text>
@@ -44,6 +44,7 @@ const Awards = () => {
           >
             Awards Categories
           </Heading>
+
           {/* 3 column grid */}
           <Grid
             templateColumns={{ base: "repeat(1, 1fr)", md: "repeat(3, 1fr)" }}
@@ -79,10 +80,14 @@ const Awards = () => {
                   px={4}
                   py={2}
                   borderRadius="xl"
-                  fontSize={{ base: "lg", md: "2xl" }}
+                  fontSize={{ base: "sm", md: "lg" }} // Adjust font size further
                   textAlign="center"
+                  whiteSpace="nowrap"  // Prevent text from wrapping
+                  overflow="hidden"    // Hide overflow text
+                  textOverflow="ellipsis" // Show ellipsis if text overflows
+                  maxWidth="90%" // Ensure the heading doesn't stretch too far
                 >
-                  {item.title}
+                  {buttonTexts[index]} {/* Use button text from the array */}
                 </Heading>
               </Box>
             ))}

@@ -1,13 +1,14 @@
+import { MarginX } from "@/utils";
 import {
   Box,
   Flex,
   Heading,
   Text,
-  VStack,
   HStack,
   SimpleGrid,
   Button,
   Image as ChakraImage,
+  VStack,
 } from "@chakra-ui/react";
 
 export default function Event() {
@@ -46,16 +47,33 @@ export default function Event() {
             <Text fontSize="3xl" fontWeight="bold" color="red.500">
               50+
             </Text>
-            <Text mt={2}>Sponsors and Exhibitors</Text>
+            <Text mt={2}>Sponsors and Exhibitor</Text>
           </Box>
         </SimpleGrid>
       </Box>
 
       {/* Co-located Shows */}
-      <Box py={12} textAlign="center">
-        <Button colorPalette="blue" size="lg" mb={6} borderRadius="full" px={6}>
-          Co-located Shows
-        </Button>
+      <Box py={12} textAlign="center" marginX={MarginX}>
+        <Flex
+          gap={4}
+          align={"center"}
+          justify="center"
+          display={{ base: "block", md: "flex" }}
+        >
+          <Button
+            bg="blue.500"
+            size="lg"
+            my={{ base: 2 }}
+            borderRadius="full"
+            px={8}
+          >
+            Co-located Shows
+          </Button>
+          <Button bg="blue.500" size="lg" borderRadius="full" px={8}>
+            Book an Exhibition booth
+          </Button>
+        </Flex>
+
         <HStack justify="center" gap={"5rem"} flexWrap="wrap" py={6}>
           <ChakraImage
             src="/ATS.png"
@@ -65,9 +83,7 @@ export default function Event() {
           />
           <ChakraImage src="/CTW.png" alt="CTW Kenya" h="80px" fit="contain" />
         </HStack>
-        <Button colorPalette="blue" size="lg" mt={8} borderRadius="full" px={6}>
-          Book an Exhibition booth
-        </Button>
+      
       </Box>
     </Box>
   );
