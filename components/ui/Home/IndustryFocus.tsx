@@ -52,7 +52,7 @@ const IndustryFocus = () => {
             >
               <Heading
                 position="absolute"
-                bottom="10%"
+                bottom={0}
                 left="50%"
                 transform="translateX(-50%)"
                 color="white"
@@ -60,7 +60,7 @@ const IndustryFocus = () => {
                 px={4}
                 py={2}
                 borderRadius="xl"
-                fontSize={{ base: "lg", md: "2xl" }}
+                fontSize={{ base: "sm", md: "md" }}
                 textAlign="center"
               >
                 {item.title}

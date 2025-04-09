@@ -11,7 +11,7 @@ export const MarginX = {
 
 export const IndustryFocusData = [
   {
-    title: "Internet Access and digital literacy",
+    title: "Internet Access and Digital Literacy",
     imageUrl: "/about-bg.jpg",
   },
   {
@@ -28,6 +28,10 @@ export const IndustryFocusData = [
   },
   {
     title: "Green Engineering",
+    imageUrl: "/about-bg.jpg",
+  },
+  {
+    title: "HealthTech Innovations",
     imageUrl: "/about-bg.jpg",
   },
 ];

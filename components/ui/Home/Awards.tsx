@@ -17,7 +17,7 @@ const Awards = () => {
             display="inline-block"
             fontWeight={"bold"}
           >
-            Top 5 Women innovators Awards
+            Top Women Innovators Awards
           </Heading>
 
           <Text
@@ -71,7 +71,7 @@ const Awards = () => {
               >
                 <Heading
                   position="absolute"
-                  bottom="10%"
+                  bottom={0}
                   left="50%"
                   transform="translateX(-50%)"
                   color="white"
@@ -79,7 +79,7 @@ const Awards = () => {
                   px={4}
                   py={2}
                   borderRadius="xl"
-                  fontSize={{ base: "lg", md: "2xl" }}
+                  fontSize={{ base: "md", md: "lg" }}
                   textAlign="center"
                 >
                   {item.title}

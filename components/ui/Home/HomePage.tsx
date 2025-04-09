@@ -88,7 +88,7 @@ export default function Home() {
           <Text fontSize="2xl" lineHeight="taller">
             <Text as="span" fontWeight="bold">
               THEME:
-            </Text>{" "}
+            </Text>
             BORDERLESS INNOVATION: PIONEERING GLOBAL TECHNOLOGY SOLUTIONS FOR
             AFRICA’S CHALLENGES
           </Text>
@@ -151,7 +151,6 @@ export default function Home() {
           gap={6}
           wrap="wrap"
           justify="center"
-          //place at the bottom of the screen
           position="absolute"
           bottom={10}
           right={10}
@@ -168,6 +167,15 @@ export default function Home() {
             </VStack>
           ))}
         </Flex>
+        <Box>
+          <Image
+            src="/Logo.png"
+            alt="Witia Logo"
+            width={500}
+            height={300}
+            style={{ borderRadius: "50%" }}
+          />
+        </Box>
       </Flex>
     </Box>
   );
