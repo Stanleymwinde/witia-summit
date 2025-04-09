@@ -1,7 +1,8 @@
 import { IndustryFocusData, MarginX } from "@/utils";
 import { Box, Grid, Heading, Text } from "@chakra-ui/react";
-import { url } from "inspector";
 import React from "react";
+import Agenda from "./Agenda"; // Import the Agenda component
+
 
 const IndustryFocus = () => {
   return (
@@ -23,8 +24,9 @@ const IndustryFocus = () => {
           marginTop={5}
         >
           The Summit offers a range of Industry focus that provide the
-          opportunity to learn and networking
+          opportunity to learn and network.
         </Text>
+        
         {/* 3 column grid */}
         <Grid
           templateColumns={{ base: "repeat(1, 1fr)", md: "repeat(3, 1fr)" }}
