@@ -16,7 +16,15 @@ const Footer = () => {
     <>
       <Box position="relative" minH="75vh" overflow="hidden">
         {/* Background Image */}
-        <Box position="absolute" top={0} left={0} w="full" h="full" zIndex={-1}>
+        <Box
+          position="absolute"
+          top={0}
+          left={0}
+          w="full"
+          h="full"
+          zIndex={-1}
+          display={{ base: "none", md: "block" }}
+        >
           <Image
             src="/home-image.webp"
             alt="Women in STEM"
@@ -49,9 +57,14 @@ const Footer = () => {
       </Box>
 
       <Box marginX={MarginX} py={8}>
-        <Flex justifyContent={"space-between"} alignItems={"center"} p={4}>
-          <Box>
-            <Text fontSize="4xl">EMAIL ADDRESS </Text>
+        <Flex
+          justifyContent={{ base: "center", md: "space-between" }}
+          direction={{ base: "column", md: "row" }}
+          alignItems={{ base: "center", md: "flex-start" }}
+          p={4}
+        >
+          <Box textAlign={{ base: "center", md: "left" }}>
+            <Text fontSize={{ base: "2xl", md: "4xl" }}>EMAIL ADDRESS </Text>
             <Text fontSize="2xl">events@witia.africa</Text>
           </Box>
           <Button
@@ -60,7 +73,7 @@ const Footer = () => {
             size="2xl"
             borderRadius="full"
             px={6}
-            py={2}
+            // py={{ base: 4, md: 6 }}
             fontSize="2xl"
             _hover={{
               bg: "blue.600",

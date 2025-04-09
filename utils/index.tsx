@@ -1,4 +1,5 @@
 import { title } from "process";
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaX } from "react-icons/fa6";
 
 export const MarginX = {
   base: "3%",
@@ -19,10 +20,6 @@ export const IndustryFocusData = [
   },
   {
     title: "Fintech Innovations",
-    imageUrl: "/about-bg.jpg",
-  },
-  {
-    title: "Gender Balance and in STEM",
     imageUrl: "/about-bg.jpg",
   },
   {
@@ -109,5 +106,28 @@ export const PartnersData = [
   {
     id: 6,
     Logo: "/DG.png",
+  },
+];
+
+export const socialIcons = [
+  {
+    link: "https://www.facebook.com/share/yfCFDfYNMKvtgM4F/?mibextid=qi2Omg",
+    icon: <FaFacebookF />,
+    color: "#3b5998",
+  },
+  {
+    link: "https://www.instagram.com/womenintech_africa",
+    icon: <FaInstagram />,
+    color: "#c13584",
+  },
+  {
+    link: "https://www.linkedin.com/company/104647873/admin/dashboard/",
+    icon: <FaLinkedinIn />,
+    color: "linear-gradient(90deg, #0077b5 0%, #0077b5 50%, #0077b5 100%)",
+  },
+  {
+    link: "https://x.com/Womenintech_af",
+    icon: <FaX />,
+    color: "#000000",
   },
 ];
