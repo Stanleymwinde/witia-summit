@@ -1,7 +1,6 @@
-import { IndustryFocusData, MarginX } from "@/utils"; // Import data
+import { buttonTexts, IndustryFocusData, MarginX } from "@/utils"; // Import data
 import { Box, Grid, Heading, Text, Button } from "@chakra-ui/react"; // Chakra UI components
 import React from "react";
-import { buttonTexts } from "@/utils/buttontext"; // Import button text from buttonText.ts
 
 const IndustryFocus = () => {
   return (
@@ -58,16 +57,14 @@ const IndustryFocus = () => {
                 transform="translateX(-50%)"
                 color="white"
                 bg="blue.500"
-                px={3}  // Adjusted padding for better fit
-                py={2}  // Adjusted padding for better fit
+                px={3} // Adjusted padding for better fit
+                py={2} // Adjusted padding for better fit
                 borderRadius="xl"
-
                 fontSize={{ base: "sm", md: "md" }}
-
                 textAlign="center"
-                size="sm"  // Reduced size to fit the text
+                size="sm" // Reduced size to fit the text
               >
-                {buttonTexts[index]}  {/* Dynamically display the button text */}
+                {buttonTexts[index]} {/* Dynamically display the button text */}
               </Button>
             </Box>
           ))}

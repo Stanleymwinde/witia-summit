@@ -38,7 +38,7 @@ export default function HeroBanner() {
       position="relative"
       minH="100vh"
       w="100%"
-      bgImage="url('/Home-bg.jpeg')"
+      bgImage="url('/Home-Bg.jpeg')"
       bgSize="cover"
       backgroundPosition="center"
       display="flex"
@@ -92,7 +92,14 @@ export default function HeroBanner() {
           </Text>
 
           <Flex mt={6} justify="center" gap={6} wrap="wrap">
-            <Button colorScheme="red" size="lg" borderRadius="md" px={6}>
+            <Button
+              bgGradient={"to-r"}
+              gradientFrom={"red.500"}
+              gradientTo={"orange.700"}
+              size="lg"
+              borderRadius="md"
+              px={6}
+            >
               Register Now
             </Button>
             <Button

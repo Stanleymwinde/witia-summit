@@ -11,7 +11,7 @@ import {
 } from "@chakra-ui/react";
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import Header from '@/components/ui/header';
+import Header from "@/components/ui/header";
 
 const targetDate = new Date("2025-07-08T00:00:00Z");
 
@@ -157,43 +157,42 @@ export default function Home() {
           </Text>
         </Stack>
       </Flex>
-        {/* Countdown */}
-        <Flex
-          bg="gray.800"
-          p={6}
-          borderRadius="2xl"
-          boxShadow="lg"
-          color="white"
-          mt={{ base: 10, md: 0 }}
-          gap={6}
-          wrap="wrap"
-          justify="center"
-          position="absolute"
-          bottom={10}
-          right={10}
-        >
-          {[
-            { label: "DAYS", value: days },
-            { label: "HOURS", value: hours },
-            { label: "MINUTES", value: minutes },
-            { label: "SECONDS", value: seconds },
-          ].map((item, i) => (
-            <VStack key={i} minW="60px">
-              <Heading size="lg">{String(item.value).padStart(2, "0")}</Heading>
-              <Text fontSize="xs">{item.label}</Text>
-            </VStack>
-          ))}
-        </Flex>
-        <Box>
-          <Image
-            src="/Logo.png"
-            alt="Witia Logo"
-            width={500}
-            height={300}
-            style={{ borderRadius: "50%" }}
-          />
-        </Box>
+      {/* Countdown */}
+      <Flex
+        bg="gray.800"
+        p={6}
+        borderRadius="2xl"
+        boxShadow="lg"
+        color="white"
+        mt={{ base: 10, md: 0 }}
+        gap={6}
+        wrap="wrap"
+        justify="center"
+        position="absolute"
+        bottom={10}
+        right={10}
+      >
+        {[
+          { label: "DAYS", value: days },
+          { label: "HOURS", value: hours },
+          { label: "MINUTES", value: minutes },
+          { label: "SECONDS", value: seconds },
+        ].map((item, i) => (
+          <VStack key={i} minW="60px">
+            <Heading size="lg">{String(item.value).padStart(2, "0")}</Heading>
+            <Text fontSize="xs">{item.label}</Text>
+          </VStack>
+        ))}
       </Flex>
+      <Box>
+        <Image
+          src="/Logo.png"
+          alt="Witia Logo"
+          width={500}
+          height={300}
+          style={{ borderRadius: "50%" }}
+        />
+      </Box>
     </Box>
   );
 }
