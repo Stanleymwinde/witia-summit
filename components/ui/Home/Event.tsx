@@ -47,7 +47,7 @@ export default function Event() {
             <Text fontSize="3xl" fontWeight="bold" color="red.500">
               180+
             </Text>
-            <Text mt={2}>Sponsors and Exhibitors</Text>
+            <Text mt={2}>Sponsors and Exhibitor</Text>
           </Box>
         </SimpleGrid>
       </Box>
@@ -83,9 +83,7 @@ export default function Event() {
           />
           <ChakraImage src="/CTW.png" alt="CTW Kenya" h="80px" fit="contain" />
         </HStack>
-        <Button colorPalette="blue" size="lg" mt={8} borderRadius="full" px={6}>
-          Book an Exhibition booth
-        </Button>
+      
       </Box>
     </Box>
   );

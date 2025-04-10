@@ -11,6 +11,7 @@ import {
 } from "@chakra-ui/react";
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import Header from '@/components/ui/header';
 
 const targetDate = new Date("2025-07-08T00:00:00Z");
 
@@ -44,13 +45,14 @@ export default function Home() {
 
   return (
     <Box position="relative" minH="100vh" overflow="hidden">
-      {/* Background Image */}
-      <Box position="absolute" top={0} left={0} w="full" h="full" zIndex={-1}>
+      {/* Full-Screen Background */}
+      <Box position="absolute" top={0} left={0} w="full" h="full" zIndex={-2}>
         <Image
-          src="/home-image.webp"
-          alt="Women in STEM"
+          src="/backgimage.jpeg"
+          alt="Background"
           layout="fill"
           objectFit="cover"
+          quality={100}
         />
         <Box
           bg="rgba(0, 48, 151, 0.6)"
@@ -62,30 +64,54 @@ export default function Home() {
         />
       </Box>
 
+      {/* Centered Africa Map Image */}
+      <Box
+        position="absolute"
+        top="50%"
+        left="50%"
+        transform="translate(-50%, -50%)"
+        zIndex={-1}
+        w={"100%"}
+        maxW="900px"
+        opacity={0.85}
+      >
+        <Image
+          src="/homepage.jpeg"
+          alt="Africa Map"
+          layout="responsive"
+          width={900}
+          height={1000}
+          objectFit="contain"
+        />
+      </Box>
+
       {/* Content */}
       <Flex
-        direction={{ base: "column", md: "row" }}
-        justify="space-between"
-        align={{ base: "start", md: "center" }}
+        direction="column"
+        justify="center"
+        align="center"
         marginX={MarginX}
-        py={12}
+        py={20}
         color="white"
-        //place at the center of the screen
+        textAlign="center"
+        minH="100vh"
+        position="relative"
+        zIndex={1}
       >
-        <Stack
-          direction="column"
-          align="start"
-          maxW={{ base: "full", md: "50%" }}
-          gap={6}
-        >
-          <Heading fontSize={{ base: "3xl", md: "6xl" }} lineHeight="taller">
+        <Stack gap={6} maxW="4xl">
+          <Heading fontSize={{ base: "4xl", md: "6xl" }} lineHeight="taller">
             Women in STEM Africa
-            <Text as="span" color="white" display="block">
+            <Text
+              as="span"
+              display="block"
+              fontWeight="extrabold"
+              color="white"
+            >
               Summit 2025
             </Text>
           </Heading>
 
-          <Text fontSize="2xl" lineHeight="taller">
+          <Text fontSize={{ base: "lg", md: "2xl" }}>
             <Text as="span" fontWeight="bold">
               THEME:
             </Text>
@@ -93,17 +119,13 @@ export default function Home() {
             AFRICA’S CHALLENGES
           </Text>
 
-          <Text fontSize="xl">
-            JULY 8<sup>th</sup> - 10<sup>th</sup> 2025
-          </Text>
-
-          <Text fontSize="2xl">
-            Kenyatta International Conference Center, Nairobi
-          </Text>
-
-          <Stack direction={{ base: "column", sm: "row" }} gap={4}>
+          <Stack
+            direction={{ base: "column", sm: "row" }}
+            gap={4}
+            justify="center"
+          >
             <Button
-              bg={"blue.500"}
+              bg="red.500"
               _hover={{
                 cursor: "pointer",
                 filter: "brightness(110%)",
@@ -114,32 +136,27 @@ export default function Home() {
               Register Now
             </Button>
             <Button
-              bg={"blue.500"}
+              bg="green.400"
               _hover={{
                 cursor: "pointer",
                 filter: "brightness(110%)",
                 transform: "scale(1.05)",
               }}
               color="white"
-              variant="outline"
             >
               Sponsor
             </Button>
-            <Button
-              bg={"blue.500"}
-              _hover={{
-                cursor: "pointer",
-                filter: "brightness(110%)",
-                transform: "scale(1.05)",
-              }}
-              color="white"
-              variant="ghost"
-            >
-              Learn more
-            </Button>
           </Stack>
-        </Stack>
 
+          <Text fontSize="xl">
+            JULY 8<sup>th</sup> - 10<sup>th</sup> 2025
+          </Text>
+
+          <Text fontSize="2xl">
+            Kenyatta International Conference Center, Nairobi
+          </Text>
+        </Stack>
+      </Flex>
         {/* Countdown */}
         <Flex
           bg="gray.800"

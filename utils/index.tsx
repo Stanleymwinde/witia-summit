@@ -23,7 +23,7 @@ export const IndustryFocusData = [
     imageUrl: "/about-bg.jpg",
   },
   {
-    title: "Cybersecurity and Data Protection",
+    title: "Healthcare Innovations",
     imageUrl: "/about-bg.jpg",
   },
   {
@@ -103,14 +103,7 @@ export const PartnersData = [
     id: 4,
     Logo: "/TK.png",
   },
-  {
-    id: 5,
-    Logo: "/DG.png",
-  },
-  {
-    id: 6,
-    Logo: "/DG.png",
-  },
+  
 ];
 
 export const socialIcons = [

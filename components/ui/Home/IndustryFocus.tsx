@@ -1,12 +1,11 @@
-import { IndustryFocusData, MarginX } from "@/utils";
-import { Box, Grid, Heading, Text } from "@chakra-ui/react";
+import { IndustryFocusData, MarginX } from "@/utils"; // Import data
+import { Box, Grid, Heading, Text, Button } from "@chakra-ui/react"; // Chakra UI components
 import React from "react";
-import Agenda from "./Agenda"; // Import the Agenda component
-
+import { buttonTexts } from "@/utils/buttontext"; // Import button text from buttonText.ts
 
 const IndustryFocus = () => {
   return (
-    <Box bg={"gray.50"} minH={"100vh"} paddingY={10}>
+    <Box bg={"gray.50"} minH={"100vh"} py={10}>
       <Box marginX={MarginX} textAlign={"center"} py={10}>
         <Heading
           fontSize={{ base: "2xl", md: "4xl" }}
@@ -23,10 +22,10 @@ const IndustryFocus = () => {
           color={"#0A192F"}
           marginTop={5}
         >
-          The Summit offers a range of Industry focus that provide the
+          The Summit offers a range of Industry focus that provides the
           opportunity to learn and network.
         </Text>
-        
+
         {/* 3 column grid */}
         <Grid
           templateColumns={{ base: "repeat(1, 1fr)", md: "repeat(3, 1fr)" }}
@@ -40,7 +39,7 @@ const IndustryFocus = () => {
               borderRadius="md"
               overflow="hidden"
               position="relative"
-              bgImage={`url(${item.imageUrl})`}
+              bgImage={`url(${item.imageUrl})`} // Fix for the background image URL
               backgroundPosition="center"
               bgSize="cover"
               boxShadow="md"
@@ -52,21 +51,24 @@ const IndustryFocus = () => {
                 cursor: "pointer",
               }}
             >
-              <Heading
+              <Button
                 position="absolute"
                 bottom={0}
                 left="50%"
                 transform="translateX(-50%)"
                 color="white"
                 bg="blue.500"
-                px={4}
-                py={2}
+                px={3}  // Adjusted padding for better fit
+                py={2}  // Adjusted padding for better fit
                 borderRadius="xl"
+
                 fontSize={{ base: "sm", md: "md" }}
+
                 textAlign="center"
+                size="sm"  // Reduced size to fit the text
               >
-                {item.title}
-              </Heading>
+                {buttonTexts[index]}  {/* Dynamically display the button text */}
+              </Button>
             </Box>
           ))}
         </Grid>

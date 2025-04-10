@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Provider } from "@/components/ui/provider";
+import Header from '@/components/ui/header';
 import Footer from "@/components/ui/Home/Footer";
 import TopNav from "@/components/ui/Top-Nav";
+
 
 export const metadata: Metadata = {
   title: "Witia Summit",

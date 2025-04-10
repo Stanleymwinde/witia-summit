@@ -7,7 +7,7 @@ const Partners = () => {
   return (
     <>
       <Box marginX={MarginX} my={10} textAlign={"center"} py={10}>
-        <Flex justifyContent="space-between">
+        <Flex justifyContent="space-between" flexWrap="wrap">
           <Heading
             fontSize={{ base: "2xl", md: "4xl" }}
             color={"white"}
@@ -26,19 +26,15 @@ const Partners = () => {
           </Button>
         </Flex>
 
-        {/*map 3 column grid to list the logos of the partners  */}
-
         <Grid
-          templateColumns={{ base: "repeat(1, 1fr)", md: "repeat(3, 1fr)" }}
+          templateColumns={{ base: "repeat(2, 1fr)", md: "repeat(4, 1fr)" }}
           gap={6}
           mt={5}
         >
-          {/* {Array.from({ length: 6 }, (_, index) => ( */}
-          {/* {[...Array(6)].map((_, index) => ( */}
           {PartnersData.map((item, index) => (
             <Box
               key={index}
-              h="15rem"
+              h={{ base: "4rem", md: "5rem", lg: "6rem" }} // 🔽 Further reduced height
               borderRadius="md"
               overflow="hidden"
               position="relative"
@@ -46,15 +42,15 @@ const Partners = () => {
               backgroundPosition="center"
               bgSize="contain"
               bgRepeat="no-repeat"
-              boxShadow="md"
+              boxShadow="sm"
               transition="all 0.3s ease"
               _hover={{
                 transform: "scale(1.05)",
                 filter: "brightness(110%)",
-                boxShadow: "2xl",
+                boxShadow: "md",
                 cursor: "pointer",
               }}
-            ></Box>
+            />
           ))}
         </Grid>
       </Box>
