@@ -12,27 +12,27 @@ export const MarginX = {
 export const IndustryFocusData = [
   {
     title: "Internet Access and Digital Literacy",
-    imageUrl: "/about-bg.jpg",
+    imageUrl: "internetaccess.jpeg",
   },
   {
     title: "AI and Machine Learning",
-    imageUrl: "/about-bg.jpg",
+    imageUrl: "AIML.jpeg",
   },
   {
     title: "Fintech Innovations",
-    imageUrl: "/about-bg.jpg",
+    imageUrl: "fintech.jpeg",
   },
   {
     title: "Healthcare Innovations",
-    imageUrl: "/about-bg.jpg",
+    imageUrl: "healthcare.jpeg",
+  },
+  {
+    title: "Cybersecurity and Data Protection",
+    imageUrl: "cybersec.jpeg",
   },
   {
     title: "Green Engineering",
-    imageUrl: "/about-bg.jpg",
-  },
-  {
-    title: "HealthTech Innovations",
-    imageUrl: "/about-bg.jpg",
+    imageUrl: "green.jpeg"
   },
 ];
 
@@ -41,48 +41,48 @@ export const SpeakersData = [
     name: "John Doe",
     title: "CEO of Tech Innovations",
     subtitle: "Keynote Speaker",
-    imageUrl: "/about-bg.jpg",
+    imageUrl: "",
   },
   {
     name: "Jane Smith",
     title: "CTO of Future Tech",
     subtitle: "Panel Discussion",
-    imageUrl: "/about-bg.jpg",
+    imageUrl: "",
   },
   {
     name: "Alice Johnson",
     title: "Lead Engineer at AI Solutions",
     subtitle: "Workshop Leader",
-    imageUrl: "/about-bg.jpg",
+    imageUrl: "",
   },
   {
     name: "Bob Brown",
     title: "Cybersecurity Expert",
     subtitle: "Guest Speaker",
-    imageUrl: "/about-bg.jpg",
+    imageUrl: "",
   },
 ];
 
 export const AwardsData = [
   {
     title: "Consumer Tech",
-    imageUrl: "/about-bg.jpg",
+    imageUrl: "consumertech.jpeg",
   },
   {
     title: "MedTech",
-    imageUrl: "/about-bg.jpg",
+    imageUrl: "medtech.jpeg",
   },
   {
     title: "FinTech",
-    imageUrl: "/about-bg.jpg",
+    imageUrl: "fintech.jpeg",
   },
   {
     title: "AngriTech",
-    imageUrl: "/about-bg.jpg",
+    imageUrl: "agritech.jpeg",
   },
   {
     title: "Smart Manufacturing",
-    imageUrl: "/about-bg.jpg",
+    imageUrl: "smartmanufacturing.jpeg",
   },
 ];
 

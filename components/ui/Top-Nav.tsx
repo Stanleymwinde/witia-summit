@@ -1,37 +1,58 @@
 import { MarginX, socialIcons } from "@/utils/index";
-import { Box, Flex, Icon, Text } from "@chakra-ui/react";
+import { Box, Flex, Icon, Image, Text } from "@chakra-ui/react";
 import Link from "next/link";
 import React from "react";
 
 const TopNav = () => {
   return (
-    <Box bg={"gray.100"} width="100%">
+    <Box bg="#070E47" width="100%" py={3}>
       <Flex
-        flexDirection={{ base: "column", md: "row" }}
-        gap={4}
-        justify={{ base: "center", md: "space-between" }}
-        align="center"
-        flexWrap="wrap"
         marginX={MarginX}
-        py={3}
-        px={4}
+        align="center"
+        justify="space-between"
+        flexWrap="wrap"
+        gap={4}
       >
-        {/* Contact us */}
-        <Flex direction="row" align="center" wrap="wrap">
-          <Text pr={2} fontSize={{ base: "sm", md: "md" }}>
-            Contact Us :
+        {/* Logo - now takes more space */}
+        <Flex align="center" flex="1">
+          <Link href="/">
+            <Image
+              src="/witialogo.svg"
+              alt="Witia Logo"
+              height="60px"
+              width="auto"
+              maxH="60px"
+              objectFit="contain"
+            />
+          </Link>
+        </Flex>
+
+        {/* Contact Center */}
+        <Flex
+          align="center"
+          justify="center"
+          flex="1"
+          minW={{ base: "100%", md: "auto" }}
+          textAlign={{ base: "center", md: "left" }}
+        >
+          <Text
+            fontSize={{ base: "sm", md: "md" }}
+            color="white"
+            mr={2}
+            fontWeight="normal"
+          >
+            Contact Us:
           </Text>
           <Link href="mailto:events@witia.africa">
             <Text
-              color="blue.500"
-              fontWeight={700}
-              fontStyle={"italic"}
+              color="white"
+              fontWeight="bold"
+              fontStyle="italic"
+              fontSize={{ base: "sm", md: "lg" }}
               _hover={{
                 textDecoration: "underline",
-                cursor: "pointer",
                 transform: "scale(1.05)",
               }}
-              fontSize={{ base: "sm", md: "lg" }}
               whiteSpace="nowrap"
             >
               events@witia.africa
@@ -39,16 +60,19 @@ const TopNav = () => {
           </Link>
         </Flex>
 
-        {/* Social Icons */}
-        <Flex gap={4} flexWrap="wrap" justify="center">
+        {/* Social Icons Right */}
+        <Flex gap={4} align="center" justify="flex-end" flex="1">
           {socialIcons.map((icon, index) => (
-            <Box key={index}>
-              <Link href={icon.link} target="_blank">
-                <Icon color={icon.color} boxSize={5}>
-                  {icon.icon}
-                </Icon>
-              </Link>
-            </Box>
+            <Link key={index} href={icon.link} target="_blank">
+              <Icon
+                color="white"
+                boxSize={5}
+                _hover={{ color: "gray.300", transform: "scale(1.15)" }}
+                transition="all 0.2s ease-in-out"
+              >
+                {icon.icon}
+              </Icon>
+            </Link>
           ))}
         </Flex>
       </Flex>

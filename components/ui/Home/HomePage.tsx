@@ -113,7 +113,7 @@ export default function Home() {
           <Text fontSize={{ base: "lg", md: "2xl" }}>
             <Text as="span" fontWeight="bold">
               THEME:
-            </Text>
+            </Text>{" "}
             BORDERLESS INNOVATION: PIONEERING GLOBAL TECHNOLOGY SOLUTIONS FOR
             AFRICA’S CHALLENGES
           </Text>
@@ -124,7 +124,7 @@ export default function Home() {
             justify="center"
           >
             <Button
-              bg="red.500"
+              bgGradient="linear(to-r, red.300, orange.400)"
               _hover={{
                 cursor: "pointer",
                 filter: "brightness(110%)",
@@ -135,7 +135,7 @@ export default function Home() {
               Register Now
             </Button>
             <Button
-              bg="green.400"
+              bgGradient="linear(to-r, green.400, yellow.200)"
               _hover={{
                 cursor: "pointer",
                 filter: "brightness(110%)",
@@ -156,43 +156,44 @@ export default function Home() {
           </Text>
         </Stack>
       </Flex>
-        {/* Countdown */}
-        <Flex
-          bg="gray.800"
-          p={6}
-          borderRadius="2xl"
-          boxShadow="lg"
-          color="white"
-          mt={{ base: 10, md: 0 }}
-          gap={6}
-          wrap="wrap"
-          justify="center"
-          position="absolute"
-          bottom={10}
-          right={10}
-        >
-          {[
-            { label: "DAYS", value: days },
-            { label: "HOURS", value: hours },
-            { label: "MINUTES", value: minutes },
-            { label: "SECONDS", value: seconds },
-          ].map((item, i) => (
-            <VStack key={i} minW="60px">
-              <Heading size="lg">{String(item.value).padStart(2, "0")}</Heading>
-              <Text fontSize="xs">{item.label}</Text>
-            </VStack>
-          ))}
-        </Flex>
-        <Box>
-          <Image
-            src="/Logo.png"
-            alt="Witia Logo"
-            width={500}
-            height={300}
-            style={{ borderRadius: "50%" }}
-          />
-        </Box>
-     
+
+      {/* Countdown */}
+      <Flex
+        bg="gray.800"
+        p={6}
+        borderRadius="2xl"
+        boxShadow="lg"
+        color="white"
+        mt={{ base: 10, md: 0 }}
+        gap={6}
+        wrap="wrap"
+        justify="center"
+        position="absolute"
+        bottom={10}
+        right={10}
+      >
+        {[
+          { label: "DAYS", value: days },
+          { label: "HOURS", value: hours },
+          { label: "MINUTES", value: minutes },
+          { label: "SECONDS", value: seconds },
+        ].map((item, i) => (
+          <VStack key={i} minW="60px">
+            <Heading size="lg">{String(item.value).padStart(2, "0")}</Heading>
+            <Text fontSize="xs">{item.label}</Text>
+          </VStack>
+        ))}
+      </Flex>
+
+      <Box position="absolute" bottom={5} left={5}>
+        <Image
+          src="/Logo.png"
+          alt="Witia Logo"
+          width={150}
+          height={150}
+          style={{ borderRadius: "50%" }}
+        />
+      </Box>
     </Box>
   );
 }
