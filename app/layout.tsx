@@ -20,6 +20,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Provider>
+      <Header></Header>
+
         <body>{children}</body>
         <Footer />
       </Provider>
