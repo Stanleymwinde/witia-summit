@@ -11,7 +11,6 @@ import {
 } from "@chakra-ui/react";
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import Header from '@/components/ui/header';
 
 const targetDate = new Date("2025-07-08T00:00:00Z");
 
@@ -193,7 +192,7 @@ export default function Home() {
             style={{ borderRadius: "50%" }}
           />
         </Box>
-      </Flex>
+     
     </Box>
   );
 }

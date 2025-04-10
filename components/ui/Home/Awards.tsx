@@ -1,6 +1,6 @@
-import { AwardsData, MarginX } from "@/utils";
+import { AwardsData, buttonTexts, MarginX } from "@/utils";
 import { Box, Grid, Heading, Text } from "@chakra-ui/react";
-import { buttonTexts } from "@/utils/buttontext"; // import the buttonTexts array
+
 
 const Awards = () => {
   return (
