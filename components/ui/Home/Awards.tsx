@@ -1,6 +1,5 @@
-import { AwardsData, MarginX } from "@/utils";
+import { AwardsData, buttonTexts, MarginX } from "@/utils";
 import { Box, Grid, Heading, Text } from "@chakra-ui/react";
-import { buttonTexts } from "@/utils/buttontext"; // import the buttonTexts array
 
 const Awards = () => {
   return (
@@ -82,8 +81,8 @@ const Awards = () => {
                   borderRadius="xl"
                   fontSize={{ base: "sm", md: "lg" }}
                   textAlign="center"
-                  whiteSpace="nowrap"  // Prevent text from wrapping
-                  overflow="hidden"    // Hide overflow text
+                  whiteSpace="nowrap" // Prevent text from wrapping
+                  overflow="hidden" // Hide overflow text
                   textOverflow="ellipsis" // Show ellipsis if text overflows
                   maxWidth="90%" // Ensure the heading doesn't stretch too far
                 >
