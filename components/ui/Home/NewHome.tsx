@@ -92,15 +92,26 @@ export default function HeroBanner() {
           </Text>
 
           <Flex mt={6} justify="center" gap={6} wrap="wrap">
-            <Button colorScheme="red" size="lg" borderRadius="md" px={6}>
-              Register Now
+          <Button
+               bgGradient="to-r" gradientFrom="red.500" gradientTo="orange.300" 
+              _hover={{
+                cursor: "pointer",
+                filter: "brightness(110%)",
+                transform: "scale(1.05)",
+              }}
+              color="white"
+              bg={"red"}
+            >
+              Register Now 
             </Button>
             <Button
-              bg="green.400"
-              _hover={{ bg: "green.500" }}
-              size="lg"
-              borderRadius="md"
-              px={6}
+            bgGradient="to-r" gradientFrom="green.500" gradientTo="yellow.300"   
+              _hover={{
+                cursor: "pointer",
+                filter: "brightness(110%)",
+                transform: "scale(1.05)",
+              }}
+              color="white"
             >
               Sponsor
             </Button>

@@ -124,18 +124,19 @@ export default function Home() {
             justify="center"
           >
             <Button
-              bgGradient="linear(to-r, red.300, orange.400)"
+               bgGradient="to-r" gradientFrom="red.500" gradientTo="orange.300" 
               _hover={{
                 cursor: "pointer",
                 filter: "brightness(110%)",
                 transform: "scale(1.05)",
               }}
               color="white"
+              bg={"red"}
             >
-              Register Now
+              Register Now Carol
             </Button>
             <Button
-              bgGradient="linear(to-r, green.400, yellow.200)"
+            bgGradient="to-r" gradientFrom="green.500" gradientTo="yellow.300"   
               _hover={{
                 cursor: "pointer",
                 filter: "brightness(110%)",

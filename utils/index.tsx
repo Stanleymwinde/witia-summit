@@ -77,7 +77,7 @@ export const AwardsData = [
     imageUrl: "fintech.jpeg",
   },
   {
-    title: "AngriTech",
+    title: "AgriTech",
     imageUrl: "agritech.jpeg",
   },
   {
@@ -85,7 +85,6 @@ export const AwardsData = [
     imageUrl: "smartmanufacturing.jpeg",
   },
 ];
-
 export const PartnersData = [
   {
     id: 1,
@@ -103,8 +102,17 @@ export const PartnersData = [
     id: 4,
     Logo: "/TK.png",
   },
+  {
+    id: 5,
+    Logo: "/gex.png",
+  },
+  {
+    id: 6,
+    Logo: "/MIE.png", // 🛠 Fixed lowercase "logo" to "Logo"
+  },
   
 ];
+
 
 
 export const socialIcons = [
