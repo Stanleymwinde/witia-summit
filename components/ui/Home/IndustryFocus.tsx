@@ -1,7 +1,6 @@
-import { IndustryFocusData, MarginX } from "@/utils"; // Import data
+import { buttonTexts, IndustryFocusData, MarginX } from "@/utils"; // Import data
 import { Box, Grid, Heading, Text, Button } from "@chakra-ui/react"; // Chakra UI components
 import React from "react";
-import { buttonTexts } from "@/utils/buttontext"; // Import button text from buttonText.ts
 
 const IndustryFocus = () => {
   return (
