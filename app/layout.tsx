@@ -3,8 +3,7 @@ import "./globals.css";
 import { Provider } from "@/components/ui/provider";
 import Header from '@/components/ui/header';
 import Footer from "@/components/ui/Home/Footer";
-import Event from '@/components/ui/Home/Event';
-
+import TopNav from "@/components/ui/Top-Nav";
 
 
 export const metadata: Metadata = {
@@ -20,8 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Provider>
-      <Header></Header>
-
+        <TopNav />
         <body>{children}</body>
         <Footer />
       </Provider>

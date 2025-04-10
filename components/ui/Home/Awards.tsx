@@ -72,7 +72,7 @@ const Awards = () => {
               >
                 <Heading
                   position="absolute"
-                  bottom="10%"
+                  bottom={0}
                   left="50%"
                   transform="translateX(-50%)"
                   color="white"
@@ -80,7 +80,7 @@ const Awards = () => {
                   px={4}
                   py={2}
                   borderRadius="xl"
-                  fontSize={{ base: "sm", md: "lg" }} // Adjust font size further
+                  fontSize={{ base: "sm", md: "lg" }}
                   textAlign="center"
                   whiteSpace="nowrap"  // Prevent text from wrapping
                   overflow="hidden"    // Hide overflow text

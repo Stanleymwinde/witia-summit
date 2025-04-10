@@ -3,7 +3,7 @@ import {
   Agenda,
   Awards,
   Event,
-  HomePage,
+  HeroBanner,
   IndustryFocus,
   Partners,
   Speakers,
@@ -12,7 +12,8 @@ import {
 export default function Home() {
   return (
     <>
-      <HomePage />
+      {/* <HomePage /> */}
+      {<HeroBanner />}
       <About />
       <Event />
       <IndustryFocus />
