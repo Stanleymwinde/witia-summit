@@ -114,7 +114,7 @@ export default function Home() {
           <Text fontSize={{ base: "lg", md: "2xl" }}>
             <Text as="span" fontWeight="bold">
               THEME:
-            </Text>{" "}
+            </Text>
             BORDERLESS INNOVATION: PIONEERING GLOBAL TECHNOLOGY SOLUTIONS FOR
             AFRICA’S CHALLENGES
           </Text>
@@ -157,28 +157,42 @@ export default function Home() {
           </Text>
         </Stack>
       </Flex>
-
-      {/* Countdown */}
-      <Flex
-        bg="gray.800"
-        p={6}
-        borderRadius="2xl"
-        boxShadow="lg"
-        color="white"
-        position="absolute"
-        bottom={10}
-        right={10}
-        gap={6}
-        wrap="wrap"
-        justify="center"
-        zIndex={1}
-      >
-        {[{ label: "DAYS", value: days }, { label: "HOURS", value: hours }, { label: "MINUTES", value: minutes }, { label: "SECONDS", value: seconds }].map((item, i) => (
-          <VStack key={i} minW="60px">
-            <Heading size="lg">{String(item.value).padStart(2, "0")}</Heading>
-            <Text fontSize="xs">{item.label}</Text>
-          </VStack>
-        ))}
+        {/* Countdown */}
+        <Flex
+          bg="gray.800"
+          p={6}
+          borderRadius="2xl"
+          boxShadow="lg"
+          color="white"
+          mt={{ base: 10, md: 0 }}
+          gap={6}
+          wrap="wrap"
+          justify="center"
+          position="absolute"
+          bottom={10}
+          right={10}
+        >
+          {[
+            { label: "DAYS", value: days },
+            { label: "HOURS", value: hours },
+            { label: "MINUTES", value: minutes },
+            { label: "SECONDS", value: seconds },
+          ].map((item, i) => (
+            <VStack key={i} minW="60px">
+              <Heading size="lg">{String(item.value).padStart(2, "0")}</Heading>
+              <Text fontSize="xs">{item.label}</Text>
+            </VStack>
+          ))}
+        </Flex>
+        <Box>
+          <Image
+            src="/Logo.png"
+            alt="Witia Logo"
+            width={500}
+            height={300}
+            style={{ borderRadius: "50%" }}
+          />
+        </Box>
       </Flex>
     </Box>
   );

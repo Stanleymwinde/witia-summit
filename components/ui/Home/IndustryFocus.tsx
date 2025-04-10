@@ -53,7 +53,7 @@ const IndustryFocus = () => {
             >
               <Button
                 position="absolute"
-                bottom="10%"
+                bottom={0}
                 left="50%"
                 transform="translateX(-50%)"
                 color="white"
@@ -61,7 +61,9 @@ const IndustryFocus = () => {
                 px={3}  // Adjusted padding for better fit
                 py={2}  // Adjusted padding for better fit
                 borderRadius="xl"
-                fontSize={{ base: "sm", md: "md" }}  // Adjust font size for better fit
+
+                fontSize={{ base: "sm", md: "md" }}
+
                 textAlign="center"
                 size="sm"  // Reduced size to fit the text
               >

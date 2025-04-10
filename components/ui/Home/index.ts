@@ -6,3 +6,4 @@ export { default as Agenda } from "./Agenda";
 export { default as Speakers } from "./Speakers";
 export { default as Awards } from "./Awards";
 export { default as Partners } from "./Partners";
+export { default as HeroBanner } from "./NewHome";

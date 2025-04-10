@@ -27,25 +27,25 @@ export default function Event() {
         <SimpleGrid columns={{ base: 1, md: 4 }} gap={8} maxW="6xl" mx="auto">
           <Box bg="white" borderRadius="md" p={6} boxShadow="md">
             <Text fontSize="3xl" fontWeight="bold" color="blue.500">
-              59+
+              4500+
             </Text>
-            <Text mt={2}>Countries Represented</Text>
+            <Text mt={2}>Visitors</Text>
           </Box>
           <Box bg="white" borderRadius="md" p={6} boxShadow="md">
             <Text fontSize="3xl" fontWeight="bold" color="orange.500">
               30+
             </Text>
-            <Text mt={2}>Ambassadors</Text>
+            <Text mt={2}>Industry Speakers</Text>
           </Box>
           <Box bg="white" borderRadius="md" p={6} boxShadow="md">
             <Text fontSize="3xl" fontWeight="bold" color="green.500">
-              2000+
+              20+
             </Text>
-            <Text mt={2}>Delegates</Text>
+            <Text mt={2}>Countries Represented</Text>
           </Box>
           <Box bg="white" borderRadius="md" p={6} boxShadow="md">
             <Text fontSize="3xl" fontWeight="bold" color="red.500">
-              50+
+              180+
             </Text>
             <Text mt={2}>Sponsors and Exhibitor</Text>
           </Box>
