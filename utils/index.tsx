@@ -106,6 +106,7 @@ export const PartnersData = [
   
 ];
 
+
 export const socialIcons = [
   {
     link: "https://www.facebook.com/share/yfCFDfYNMKvtgM4F/?mibextid=qi2Omg",
