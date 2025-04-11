@@ -11,8 +11,6 @@ import {
 } from "@chakra-ui/react";
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import Header from "@/components/ui/header";
-
 
 const targetDate = new Date("2025-07-08T00:00:00Z");
 
@@ -126,7 +124,9 @@ export default function Home() {
             justify="center"
           >
             <Button
-               bgGradient="to-r" gradientFrom="red.500" gradientTo="orange.300" 
+              bgGradient="to-r"
+              gradientFrom="red.500"
+              gradientTo="orange.300"
               _hover={{
                 cursor: "pointer",
                 filter: "brightness(110%)",
@@ -138,7 +138,9 @@ export default function Home() {
               Register Now Carol
             </Button>
             <Button
-            bgGradient="to-r" gradientFrom="green.500" gradientTo="yellow.300"   
+              bgGradient="to-r"
+              gradientFrom="green.500"
+              gradientTo="yellow.300"
               _hover={{
                 cursor: "pointer",
                 filter: "brightness(110%)",
@@ -192,7 +194,6 @@ export default function Home() {
           alt="Witia Logo"
           width={500}
           height={300}
-
           style={{ borderRadius: "50%" }}
         />
       </Box>
