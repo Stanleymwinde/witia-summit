@@ -1,4 +1,4 @@
-import { AwardsData, MarginX } from "@/utils";
+import { AwardsData, buttonTexts, MarginX } from "@/utils";
 import { Box, Grid, Heading, Text } from "@chakra-ui/react";
 
 const Awards = () => {

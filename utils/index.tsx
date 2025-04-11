@@ -102,6 +102,7 @@ export const PartnersData = [
     id: 4,
     Logo: "/TK.png",
   },
+
   {
     id: 5,
     Logo: "/gex.png",
@@ -110,7 +111,6 @@ export const PartnersData = [
     id: 6,
     Logo: "/MIE.png", // 🛠 Fixed lowercase "logo" to "Logo"
   },
-  
 ];
 
 
@@ -138,7 +138,6 @@ export const socialIcons = [
   },
 ];
 
-
 export const buttonTexts = [
   "Internet Access and Digital Literacy",
   "AI and Machine Learning",
@@ -152,3 +151,4 @@ export const buttonTexts = [
   "AgriTech",
   "Smart Manufacturing",
 ];
+

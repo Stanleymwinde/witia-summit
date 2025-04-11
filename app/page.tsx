@@ -12,7 +12,6 @@ import {
 export default function Home() {
   return (
     <>
-      {/* <HomePage /> */}
       {<HeroBanner />}
       <About />
       <Event />

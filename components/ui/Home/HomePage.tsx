@@ -11,6 +11,8 @@ import {
 } from "@chakra-ui/react";
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import Header from "@/components/ui/header";
+
 
 const targetDate = new Date("2025-07-08T00:00:00Z");
 
@@ -157,7 +159,6 @@ export default function Home() {
           </Text>
         </Stack>
       </Flex>
-
       {/* Countdown */}
       <Flex
         bg="gray.800"
@@ -185,13 +186,13 @@ export default function Home() {
           </VStack>
         ))}
       </Flex>
-
-      <Box position="absolute" bottom={5} left={5}>
+      <Box>
         <Image
           src="/Logo.png"
           alt="Witia Logo"
-          width={150}
-          height={150}
+          width={500}
+          height={300}
+
           style={{ borderRadius: "50%" }}
         />
       </Box>
