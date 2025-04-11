@@ -10,8 +10,7 @@ const Partners = () => {
         <Flex justifyContent="space-between" flexWrap="wrap">
           <Heading
             fontSize={{ base: "2xl", md: "4xl" }}
-            color={"white"}
-            bg={"blue.500"}
+            color={"blue.500"}
             p={2}
             my={5}
             borderRadius={10}

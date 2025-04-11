@@ -14,8 +14,8 @@ const agendaData: Record<string, { time: string; title: string }[]> = {
     { time: '1:30 PM - 2:00 PM', title: 'Keynote: Green Engineering – Sustainable Innovations for Climate Challenges' },
     { time: '2:00 PM - 3:00 PM', title: 'Panel Discussion: Leveraging technology and engineering solutions to combat climate change and promote sustainability' },
     { time: '3:00 PM - 3:30 PM', title: 'Coffee Break' },
-    { time: '3:30 PM - 4:30 PM', title: 'Captains Without Borders: Global Collaboration for Local Impact' },
-    { time: '6:30 PM - 9:30 PM', title: 'Dinner Awards Gala – Top 5 Women Innovators in Africa' },
+    { time: '3:30 PM - 4:30 PM', title: 'Startups Without Borders: Global Collaboration for Local Impact' },
+    { time: '7:00 PM - 9:00 PM', title: 'Dinner Awards Gala – Top 5 Women Innovators in Africa' },
   ],
   'July 9th': [
     { time: '8:00 AM - 9:00 AM', title: 'Morning Coffee and Networking' },

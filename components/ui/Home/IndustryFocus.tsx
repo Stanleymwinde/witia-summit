@@ -8,8 +8,7 @@ const IndustryFocus = () => {
       <Box marginX={MarginX} textAlign={"center"} py={10}>
         <Heading
           fontSize={{ base: "2xl", md: "4xl" }}
-          color={"white"}
-          bg={"blue.500"}
+          color={"blue.500"}
           p={4}
           borderRadius={10}
           display="inline-block"

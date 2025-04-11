@@ -33,13 +33,12 @@ const Speakers = () => {
           <Box textAlign={"center"} py={10}>
             <Heading
               fontSize={{ base: "2xl", md: "4xl" }}
-              color={"white"}
-              bg={"blue.500"}
+              color={"blue.500"}
               padding={5}
               borderRadius={10}
               display="inline-block"
             >
-              Speakers
+               Meet Our Speakers
             </Heading>
             <Text fontSize={{ base: "sm", md: "xl" }} color={"#0A192F"} mt={5}>
               The Summit offers a range of Industry focus that provide the
@@ -134,3 +133,7 @@ const Speakers = () => {
 };
 
 export default Speakers;
+
+
+
+

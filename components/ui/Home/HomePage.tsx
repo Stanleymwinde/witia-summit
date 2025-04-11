@@ -13,6 +13,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import Header from "@/components/ui/header";
 
+
 const targetDate = new Date("2025-07-08T00:00:00Z");
 
 function useCountdown(targetDate: Date) {
@@ -114,7 +115,7 @@ export default function Home() {
           <Text fontSize={{ base: "lg", md: "2xl" }}>
             <Text as="span" fontWeight="bold">
               THEME:
-            </Text>
+            </Text>{" "}
             BORDERLESS INNOVATION: PIONEERING GLOBAL TECHNOLOGY SOLUTIONS FOR
             AFRICA’S CHALLENGES
           </Text>
@@ -125,18 +126,19 @@ export default function Home() {
             justify="center"
           >
             <Button
-              bg="red.500"
+               bgGradient="to-r" gradientFrom="red.500" gradientTo="orange.300" 
               _hover={{
                 cursor: "pointer",
                 filter: "brightness(110%)",
                 transform: "scale(1.05)",
               }}
               color="white"
+              bg={"red"}
             >
-              Register Now
+              Register Now Carol
             </Button>
             <Button
-              bg="green.400"
+            bgGradient="to-r" gradientFrom="green.500" gradientTo="yellow.300"   
               _hover={{
                 cursor: "pointer",
                 filter: "brightness(110%)",
@@ -190,6 +192,7 @@ export default function Home() {
           alt="Witia Logo"
           width={500}
           height={300}
+
           style={{ borderRadius: "50%" }}
         />
       </Box>
