@@ -4,7 +4,6 @@ import {
   Box,
   Button,
   CloseButton,
-  Dialog,
   Grid,
   Heading,
   Portal,
@@ -17,6 +16,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 const Speakers = () => {
   const [selectedSpeaker, setSelectedSpeaker] = useState<any>(null);
   const [isDialogOpen, setDialogOpen] = useState(false);
+
   const handleReadMore = (speaker: any) => {
     setSelectedSpeaker(speaker);
     setDialogOpen(true);
@@ -26,106 +26,117 @@ const Speakers = () => {
     setDialogOpen(false);
     setSelectedSpeaker(null);
   };
+
   return (
     <>
-      <Box bg={"gray.50"}>
+      <Box bg={"gray.50"} py={10}>
         <Box marginX={MarginX}>
-          <Box textAlign={"center"} py={10}>
+          <Box textAlign="center" mb={10}>
             <Heading
               fontSize={{ base: "2xl", md: "4xl" }}
-              color={"blue.500"}
-              padding={5}
-              borderRadius={10}
-              display="inline-block"
+              color="blue.600"
+              mb={3}
             >
-               Meet Our Speakers
+              Meet Our Speakers
             </Heading>
-            <Text fontSize={{ base: "sm", md: "xl" }} color={"#0A192F"} mt={5}>
-              The Summit offers a range of Industry focus that provide the
-              opportunity to learn and networking
-            </Text>
           </Box>
 
           <Grid
-            templateColumns={{ base: "repeat(1, 1fr)", md: "repeat(4, 1fr)" }}
-            gap={6}
-            mt={5}
+            templateColumns={{ base: "repeat(1, 1fr)", sm: "repeat(2, 1fr)", md: "repeat(4, 1fr)" }}
+            gap={8}
           >
             {SpeakersData.map((item, index) => (
               <Box
-                pos="relative"
-                borderRadius="md"
-                boxShadow="md"
-                bgImage={`url(${item.imageUrl})`}
                 key={index}
-                bgSize="cover"
-                bgPos="center"
-                height="22rem"
+                bg="white"
+                borderRadius="xl"
+                boxShadow="md"
+                overflow="hidden"
+                transition="all 0.3s"
+                _hover={{ boxShadow: "xl", transform: "translateY(-4px)" }}
               >
-                <Stack
-                  w="80%"
-                  align="center"
-                  p={3}
-                  pos="absolute"
-                  bottom="10%"
-                  left="50%"
-                  transform="translate(-50%,50%)"
-                  bg="white"
-                  textAlign="center"
-                  borderRadius="md"
+                <Box
+                  bgImage={`url(${item.imageUrl})`}
+                  bgSize="cover"
+                  bgPos="center"
+                  height="280px"
                 >
-                  <Heading fontSize="2xl">{item.name}</Heading>
-                  <Text fontSize="md">{item.title}</Text>
-                  <Text fontSize="sm" color="blue.500">
+                  {/* Optional overlay if needed */}
+                  <Box
+                    w="full"
+                    h="full"
+                    bg="blackAlpha.400"
+                  />
+                </Box>
+
+                <Box p={5} textAlign="center">
+                  <Heading fontSize="xl" mb={1}>
+                    {item.name}
+                  </Heading>
+                  <Text fontSize="md" color="gray.600">
+                    {item.title}
+                  </Text>
+                  <Text fontSize="sm" color="blue.500" mb={3}>
                     {item.subtitle}
                   </Text>
                   <Button
-                    colorScheme="primary"
+                    colorScheme="blue"size="sm"
                     onClick={() => handleReadMore(item)}
-                  >
-                    <FaArrowRightLong />
+>
+                   <Box as="span" display="flex" alignItems="center" gap={2}>
                     Read More
+                    <FaArrowRightLong />
+                  </Box>
                   </Button>
-                </Stack>
+
+      
+                </Box>
               </Box>
             ))}
           </Grid>
 
-          {/* Modal/Dialog */}
-          <Dialog.Root
-            open={isDialogOpen}
-            onOpenChange={({ open }: { open: boolean }) => setDialogOpen(open)}
-            scrollBehavior="inside"
-            size="sm"
-          >
+          {/* Speaker Modal */}
+          {isDialogOpen && selectedSpeaker && (
             <Portal>
-              <Dialog.Backdrop />
-              <Dialog.Positioner>
-                <Dialog.Content>
-                  <Dialog.Header>
-                    <Dialog.Title>{selectedSpeaker?.name}</Dialog.Title>
-                  </Dialog.Header>
-
-                  <Dialog.CloseTrigger asChild>
-                    <CloseButton size="sm" />
-                  </Dialog.CloseTrigger>
-
-                  <Dialog.Body>
-                    <Text fontWeight="bold" mb={2}>
-                      {selectedSpeaker?.title}
-                    </Text>
-                    <Text fontSize="sm" color="blue.500" mb={4}>
-                      {selectedSpeaker?.subtitle}
-                    </Text>
-                    <Text>
-                      {selectedSpeaker?.description ||
-                        "More details about this speaker will appear here."}
-                    </Text>
-                  </Dialog.Body>
-                </Dialog.Content>
-              </Dialog.Positioner>
+              <Box
+                pos="fixed"
+                top="0"
+                left="0"
+                width="100vw"
+                height="100vh"
+                bg="rgba(0, 0, 0, 0.7)"
+                display="flex"
+                alignItems="center"
+                justifyContent="center"
+                zIndex="overlay"
+              >
+                <Box
+                  bg="white"
+                  p={6}
+                  borderRadius="md"
+                  maxW="600px"
+                  w="90%"
+                  maxHeight="90vh"
+                  overflowY="auto"
+                  boxShadow="2xl"
+                  pos="relative"
+                >
+                  <CloseButton
+                    pos="absolute"
+                    top={3}
+                    right={3}
+                    onClick={handleClose}
+                  />
+                  <Heading mb={2}>{selectedSpeaker.name}</Heading>
+                  <Text fontWeight="semibold">{selectedSpeaker.title}</Text>
+                  <Text fontStyle="italic" mb={4} color="blue.500">
+                    {selectedSpeaker.subtitle}
+                  </Text>
+                  <Text color="gray.700">{selectedSpeaker.bio}</Text>
+                </Box>
+              </Box>
             </Portal>
-          </Dialog.Root>
+          )}
         </Box>
       </Box>
     </>
