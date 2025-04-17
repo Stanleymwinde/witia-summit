@@ -92,28 +92,42 @@ export default function HeroBanner() {
           </Text>
 
           <Flex mt={6} justify="center" gap={6} wrap="wrap">
+            <a
+              href="https://ticketskenya.com/all-events/women-in-stem-africa-summit-2025"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button
+                bgGradient="to-r"
+                gradientFrom="red.500"
+                gradientTo="orange.700"
+                size="lg"
+                borderRadius="md"
+                px={6}
+              >
+                Register Now
+              </Button>
+            </a>
 
-            <Button
-              bgGradient={"to-r"}
-              gradientFrom={"red.500"}
-              gradientTo={"orange.700"}
-              size="lg"
-              borderRadius="md"
-              px={6}
+            <a
+              href="https://ticketskenya.com/all-events/women-in-stem-africa-summit-2025"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Register Now
-            </Button>
-            <Button
-            bgGradient="to-r" gradientFrom="green.500" gradientTo="yellow.300"   
-              _hover={{
-                cursor: "pointer",
-                filter: "brightness(110%)",
-                transform: "scale(1.05)",
-              }}
-              color="white"
-            >
-              Sponsor
-            </Button>
+              <Button
+                bgGradient="to-r"
+                gradientFrom="green.500"
+                gradientTo="yellow.300"
+                color="white"
+                _hover={{
+                  cursor: "pointer",
+                  filter: "brightness(110%)",
+                  transform: "scale(1.05)",
+                }}
+              >
+                Sponsor
+              </Button>
+            </a>
           </Flex>
 
           <Text mt={8} fontSize="lg" fontWeight="medium">
@@ -149,11 +163,10 @@ export default function HeroBanner() {
                 key={i}
                 minW="50px"
                 mx={{ base: -1, md: 2 }}
-                border={"1px solid white"}
+                border="1px solid white"
                 p={{ base: 1, md: 4 }}
-                // px={{ base: 2, md: 4 }}
                 borderRadius="md"
-                bg={"gray.500"}
+                bg="gray.500"
               >
                 <Heading size={{ base: "sm", md: "3xl" }}>
                   {String(item.value).padStart(2, "0")}
@@ -167,3 +180,5 @@ export default function HeroBanner() {
     </Box>
   );
 }
+
+

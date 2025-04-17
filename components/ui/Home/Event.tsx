@@ -69,22 +69,27 @@ export default function Event() {
           >
             Co-located Shows
           </Button>
-          <Button bg="blue.500" size="lg" borderRadius="full" px={8}>
-            Book an Exhibition booth
-          </Button>
+          
+          {/* Wrapped in anchor tag for external link */}
+          <a href="https://ticketskenya.com/all-events/women-in-stem-africa-summit-2025" target="_blank" rel="noopener noreferrer">
+            <Button bg="blue.500" size="lg" borderRadius="full" px={8}>
+              Book an Exhibition Booth
+            </Button>
+          </a>
         </Flex>
 
         <HStack justify="center" gap={"5rem"} flexWrap="wrap" py={6}>
           <ChakraImage
-            src="/ATS.png"
+            src="newafrica.jpeg"
             alt="Africa Tech Show"
             h="80px"
             fit="contain"
           />
-          <ChakraImage src="/CTW.png" alt="CTW Kenya" h="80px" fit="contain" />
+          <ChakraImage src="newctw.jpeg" alt="CTW Kenya" h="80px" fit="contain" />
         </HStack>
       
       </Box>
     </Box>
   );
 }
+
