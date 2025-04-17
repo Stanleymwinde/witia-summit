@@ -19,10 +19,13 @@ const Partners = () => {
             Our Partners and Sponsors
           </Heading>
 
-          <Button bg="blue.500" color={"white"} variant="outline" size="md">
-            Become a Sponsor
-            <FaArrowRightLong />
-          </Button>
+          {/* Using an anchor tag for the link */}
+          <a href="https://ticketskenya.com/all-events/women-in-stem-africa-summit-2025" target="_blank" rel="noopener noreferrer">
+            <Button bg="blue.500" color={"white"} variant="outline" size="md">
+              Become a Sponsor
+              <FaArrowRightLong />
+            </Button>
+          </a>
         </Flex>
 
         <Grid
