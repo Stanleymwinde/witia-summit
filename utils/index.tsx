@@ -38,11 +38,11 @@ export const IndustryFocusData = [
 
 export const SpeakersData = [
   {
-    name: "Neema Balolebwami Nelly",
-    title: "CEO of EMEA Venture Builder",
+    name: "Claire Matuku",
+    title: "Machine Learning Engineer",
     subtitle: "Panel Discussion",
-    imageUrl: "nelly.jpg",
-    bio: "Neema is an Artificial Intelligence expert with a strong background in data science and software development. She specializes in developing AI solutions that prioritize ethical, unbiased, transparent, and human-centered approaches. With expertise in software engineering and Ethical AI education, Neema is committed to advancing the responsible development and application of artificial intelligence.ss",
+    imageUrl: "claire.webp",
+    bio: "Claire is a statistician, data scientist and AI enthusiast currently based in Nairobi Kenya. She has acquired hands-on experience in the implementation of various AI and Data Science techniques to benefit businesses and clients across the world. Her current goal is to build AI driven systems that solve problems for her community, for Africa and for the world at large.",
   },
   {
     name: "Clarissa Soehnchen",
@@ -78,6 +78,48 @@ export const SpeakersData = [
     subtitle: "Panel discussion",
     imageUrl: "quinter.jpg",
     bio: "QUINTER is the CEO & Director Charge24. Ochieng Quinter spearheads Charge24 Africa, a cutting-edge power bank rental and interactive digital advertising solution. More than just a tech startup, Charge24 is a movement redefining how Africa connects, powers, and advertises. In today’s digital landscape, data is crucial, and Charge24 provides data-driven advertising solutions not only for corporate brands but also for impact-focused organizations.She believes Africa doesn’t need to catch up—it needs to be different at Art for Change – Her passion for storytelling and artistic expression led to the establishment of Art for Change in 2018, creating a platform where creatives use art for advocacy and social transformation. Over the years, she has supported over 60 artists and led impactful initiatives, including mental health awareness campaigns, youth empowerment workshops, and gender equity advocacy programs, reaching thousands across Kenya.Her programs have also been hosted in Rwanda & Peru in partnership with Planned Parenthood,using art to address Sexual and Reproductive Health & Rights (SRHR). In Burundi, Art for Change has promoted peace through art while economically empowering artists by showcasing their work in art galleries in London, UK, in partnership with the Kenyan Government’s Ministry of Sports and Arts.Her work has been recognized globally with prestigious awards, including some but not all:🏆 Impact Organization of the Year – Female Founders Initiative, Middle East & Africa (FFMEA, Supported by UN Women) (2021)🏆 FortyUnder40 Africa - Arts Awardee (2023)",
+  },
+  {
+    name: "Melody Mukhwana",
+    title: "Cloudfactory",
+    subtitle: "Panel Discussion",
+    imageUrl: "melody.jpg",
+    bio: "Melody thrives at the intersection of AI, strategy, and execution—transforming ambitious ideas into scalable, results-driven projects, always with a human touch. With a background in counseling psychology, she brings a rare and powerful blend of technical leadership and deep insight into human behavior. This allows her to lead AI initiatives not just as a technologist, but as someone who truly understands that successful AI adoption is ultimately about people.",
+  },
+  {
+    name: "DR. Tayba Hatimy",
+    title: "Co-Founder and Executive Director of Baus Taka",
+    subtitle: "Panel Discussion",
+    imageUrl: "tayba.webp",
+    bio: "She is the Co-Founder and Executive Director of Baus Taka Enterprise, a tech-integrated waste management enterprise based in Mombasa County on a mission to combat marine plastic pollution while providing green job opportunities for youth and women from vulnerable communities. Dr. Tayba is deeply committed to leveraging technology for positive oceanic transformations, inspiring both youth and women to actively engage in community-based sustainability action. ",
+  },
+  {
+    name: "Abigail Okello",
+    title: "Executive Director- Solar Mtaani",
+    subtitle: "Panel Discussion",
+    imageUrl: "abigail.jpg",
+    bio: "Abigaill Okello is the Executive Director of Solar Mtaani, a social enterprise dedicated to providing clean, affordable, and sustainable solar energy solutions to underserved communities in Kenya. With a deep commitment to energy justice and community development, Abigaill leads the organization with a vision of lighting up lives—literally and figuratively—through accessible solar technology.Under her leadership, Solar Mtaani has focused on bridging the energy gap in informal settlements and rural areas, promoting not just energy access but also education, economic empowerment, and environmental sustainability. Abigaill's approach blends grassroots engagement with strategic partnerships, ensuring that the solutions Solar Mtaani delivers are inclusive, scalable, and community-driven.Her background in social impact and organizational leadership enables her to champion both operational excellence and social equity. She believes that every household deserves the dignity of reliable power, and she is passionate about ensuring that clean energy reaches the last mile.Abigaill is not only a leader but also an advocate—working at the intersection of innovation, advocacy, and community to transform the energy landscape from the ground up.",
+  },
+  {
+    name: "Radhika Bhachu",
+    title: "Founder Ndovu",
+    subtitle: "Keynote Speaker",
+    imageUrl: "rhadhika.webp",
+    bio: "Radhika has over 14 years of international experience in the financial services industry where she advised clients on how to invest their savings at BlackRock (London) as a Relationship Director.",
+  },
+  {
+    name: "Bright Gameli",
+    title: "Cyber Secrity Engineer",
+    subtitle: "Keynote Speaker",
+    imageUrl: "bright.jpg",
+    bio: "Dr Bright Gameli Mawudor is a cybersecurity tsar, with a PhD (which he got at 28) in IT Convergence and Application Engineering with a concentration in Information Security from Pukyong National University, South Korea.Have things turned out as expected at his age? “Unexpectedly. For instance, I founded Africahackon nine years ago, the first-ever hands-on cyber security conference in East Africa that aims to bring awareness with live demonstrations of how hacking happens, which has since grown into a juggernaut, and it’s amazing to see children doing cybersecurity.",
+  },
+  {
+    name: "Maureen Gitau",
+    title: "Oxfam International",
+    subtitle: "Panel Discussion",
+    imageUrl: "maureen.jpg",
+    bio: " Digital Lead for one of Oxfam's biggest advocacy.mju9m",
   },
 ];
 
