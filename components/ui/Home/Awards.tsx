@@ -1,100 +1,100 @@
-import { AwardsData, buttonTexts, MarginX } from "@/utils";
-import { Box, Grid, Heading, Text } from "@chakra-ui/react";
+import { Box, Button, Flex, Heading, Image, Text } from "@chakra-ui/react";
 
 const Awards = () => {
   return (
-    <Box bg={"gray.50"} py={10}>
-      <Box marginX={MarginX} textAlign={"center"} py={10}>
-        <Heading
-          fontSize={{ base: "2xl", md: "4xl" }}
-          color={"white"}
-          bg={"blue.500"}
-          padding={4}
-          my={10}
-          borderRadius={10}
-          display="inline-block"
-          fontWeight={"bold"}
-        >
-          Top Women Innovators Awards
-        </Heading>
+    <Box bg="blue.600" py={{ base: 10, md: 20 }} px={{ base: 5, md: 20 }}>
+      <Flex
+        direction={{ base: "column", md: "row" }}
+        align="center"
+        justify="space-between"
+        gap={10}
+      >
+        
+        {/* LEFT - TEXT CONTENT */}
+        <Box flex="1" color="white">
+        <Box mb={8}>
+  <Heading
+    fontSize={{ base: "3xl", md: "5xl" }}
+    color="white"
+    fontWeight="bold"
+    textTransform="uppercase"
+    lineHeight="1.2"
+    textAlign="center"
+  >
+    VIP
+  </Heading>
+  <Heading
+    fontSize={{ base: "3xl", md: "5xl" }}
+    color="white"
+    fontWeight="bold"
+    textTransform="uppercase"
+    lineHeight="1.2"
+    textAlign="center"
+    transform="translateX(-20px)" // shifts text to the left
+  >
+    Networking
+  </Heading>
+  <Heading
+    fontSize={{ base: "3xl", md: "5xl" }}
+    color="white"
+    fontWeight="bold"
+    textTransform="uppercase"
+    lineHeight="1.2"
+    textAlign="center"
+  >
+    Dinner
+  </Heading>
+</Box>
 
-        <Text
-          fontSize={{ base: "sm", md: "xl" }}
-          color={"#0A192F"}
-          marginTop={5}
-          textAlign={"center"}
-          maxW={{ base: "100%", md: "50%" }}
-          marginX={"auto"}
-        >
-          Awards Gala to highlight the innovative spirit and leadership of
-          women in Africa, acknowledging their significant roles in driving
-          sustainable development and economic growth across the continent.
-        </Text>
-
-        <Heading
-          fontSize={{ base: "2xl", md: "4xl" }}
-          color={"blue.500"}
-          p={2}
-          my={5}
-          borderRadius={10}
-          display="inline-block"
-        >
-          Awards Categories
-        </Heading>
-
-        {/* 3 column grid */}
-        <Grid
-          templateColumns={{ base: "repeat(1, 1fr)", md: "repeat(3, 1fr)" }}
-          gap={6}
-          mt={5}
-        >
-          {AwardsData.map((item, index) => (
-            <Box
-              key={index}
-              h="15rem"
-              borderRadius="md"
-              overflow="hidden"
-              position="relative"
-              bgImage={`url(${item.imageUrl})`}
-              backgroundPosition="center"
-              bgSize="cover"
-              boxShadow="md"
-              transition="all 0.3s ease"
-              _hover={{
-                transform: "scale(1.05)",
-                filter: "brightness(110%)",
-                boxShadow: "2xl",
-                cursor: "pointer",
-              }}
-            >
-              <Heading
-                position="absolute"
-                bottom={0}
-                left="50%"
-                transform="translateX(-50%)"
-                color="white"
-                bg="blue.500"
-                px={4}
-                py={2}
-                borderRadius="xl"
-                fontSize={{ base: "sm", md: "lg" }}
-                textAlign="center"
-                whiteSpace="nowrap"
-                overflow="hidden"
-                textOverflow="ellipsis"
-                maxWidth="90%"
+          <Text
+            fontSize={{ base: "sm", md: "lg" }}
+            mb={8}
+            lineHeight="1.8"
+            maxW="600px"
+            ml={{ base: "0", md: "50px" }}
+          >
+            An exclusive VIP networking dinner on the opening day of the Women
+            in STEM Africa Summit. This elegant evening brings together
+            distinguished leaders, innovators, and change-makers from across the
+            continent to connect, share ideas, and foster meaningful
+            collaborations in an intimate setting. Celebrate the start of the
+            summit with inspiring conversations, fine dining, and a shared
+            commitment to advancing women who are breaking barriers in science,
+            engineering and innovation.
+          </Text>
+          <Button
+                bgGradient="to-r"
+                gradientFrom="red.500"
+                gradientTo="orange.700"
+                size="lg"
+                borderRadius="md"
+                px={6}
+                ml={{ base: "0", md: "50px" }}
               >
-                {item.title}
-              </Heading>
-            </Box>
-          ))}
-        </Grid>
-      </Box>
+                RESERVE YOUR SEAT
+              </Button>
+
+        </Box>
+
+        {/* RIGHT - IMAGE */}
+        <Box flex="1" position="relative" left={{ base: "0", md: "70px" }}>
+  <Image
+    src="/vipnetworkingdinner.jpeg"
+    alt="VIP Networking Dinner"
+    borderTopLeftRadius="80px"
+    width="100%"
+    height={{ base: "500px", md: "500px" }}  // Increase height based on screen size
+    objectFit="cover"
+  />
+</Box>
+
+      </Flex>
     </Box>
   );
 };
 
 export default Awards;
+
 
 
 
