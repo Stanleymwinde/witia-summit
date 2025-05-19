@@ -152,7 +152,7 @@ export const PartnersData = [
   },
   {
     id: 2,
-    Logo: "/ATS.png",
+    Logo: "/atslogooo.jpg",
   },
   {
     id: 3,
