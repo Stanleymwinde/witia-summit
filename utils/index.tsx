@@ -76,7 +76,7 @@ export const SpeakersData = [
     name: "Quinter Ochieng",
     title: "CEO at WECHARGE",
     subtitle: "Panel discussion",
-    imageUrl: "quinter.jpg",
+    imageUrl: "Quinterrr.jpg",
     bio: "QUINTER is the CEO & Director Charge24. Ochieng Quinter spearheads Charge24 Africa, a cutting-edge power bank rental and interactive digital advertising solution. More than just a tech startup, Charge24 is a movement redefining how Africa connects, powers, and advertises. In today’s digital landscape, data is crucial, and Charge24 provides data-driven advertising solutions not only for corporate brands but also for impact-focused organizations.She believes Africa doesn’t need to catch up—it needs to be different at Art for Change – Her passion for storytelling and artistic expression led to the establishment of Art for Change in 2018, creating a platform where creatives use art for advocacy and social transformation. Over the years, she has supported over 60 artists and led impactful initiatives, including mental health awareness campaigns, youth empowerment workshops, and gender equity advocacy programs, reaching thousands across Kenya.Her programs have also been hosted in Rwanda & Peru in partnership with Planned Parenthood,using art to address Sexual and Reproductive Health & Rights (SRHR). In Burundi, Art for Change has promoted peace through art while economically empowering artists by showcasing their work in art galleries in London, UK, in partnership with the Kenyan Government’s Ministry of Sports and Arts.Her work has been recognized globally with prestigious awards, including some but not all:🏆 Impact Organization of the Year – Female Founders Initiative, Middle East & Africa (FFMEA, Supported by UN Women) (2021)🏆 FortyUnder40 Africa - Arts Awardee (2023)",
   },
   {
@@ -84,7 +84,7 @@ export const SpeakersData = [
     title: "CEO of Humainly AI",
     subtitle: "Panel Discussion",
     imageUrl: "melody.jpg",
-    bio: "Melody Mukhwana is the Founder & CEO of Humainly AI, a consultancy helping African businesses adopt human-centered AI tools that boost performance, reduce burnout, and build scalable systems with heart. With a background in counseling psychology and five years in AI strategy and execution, she bridges the gap between cutting-edge tech and real human needs. Melody is passionate about making AI more accessible, championing women in tech, and helping teams unlock intentional growth through bold strategy, empathy, and innovation that feels deeply human",
+    bio: "Melody Mukhwana is the Founder & CEO of Humainly AI, a consultancy helping African businesses adopt human-centered AI tools that boost performance, reduce burnout, and build scalable systems with heart. With a background in counseling psychology and five years in AI strategy and execution, she bridges the gap between cutting-edge tech and real human needs. Melody is passionate about making AI more accessible, championing women in tech, and helping teams unlock intentional growth through bold strategy, empathy, and innovation that feels deeply human.",
   },
   {
     name: "DR. Tayba Hatimy",
@@ -109,7 +109,7 @@ export const SpeakersData = [
   },
   {
     name: "Bright Gameli",
-    title: "Cyber Secrity Engineer",
+    title: "Cyber Security Engineer",
     subtitle: "Keynote Speaker",
     imageUrl: "bright.jpg",
     bio: "Dr Bright Gameli Mawudor is a cybersecurity tsar, with a PhD (which he got at 28) in IT Convergence and Application Engineering with a concentration in Information Security from Pukyong National University, South Korea.Have things turned out as expected at his age? “Unexpectedly. For instance, I founded Africahackon nine years ago, the first-ever hands-on cyber security conference in East Africa that aims to bring awareness with live demonstrations of how hacking happens, which has since grown into a juggernaut, and it’s amazing to see children doing cybersecurity.",
@@ -125,7 +125,7 @@ export const SpeakersData = [
     name: "Paul Brian",
     title: "Cybersecurity Engineer",
     subtitle: "Panel Discussion",
-    imageUrl: "paul.jpg",
+    imageUrl: "paulb.jpeg",
     bio: " Paul Brian is a Cybersecurity Engineer at Kenya Commercial Bank Group with proven expertise in security design and architecture, penetration testing, application security, DevSecOps, cloud security, data privacy, and data protection. He is the author of Parenting in the Digital Era, among other books, a writer, and a seasoned speaker on cybersecurity, internet safety, and digital governance, leadership and personal growth. Paul is also the Founder and Host of the Success Ladder Podcast, a global platform spotlighting powerful conversations on leadership, personal growth, entrepreneurship, and impactful success stories.",
   },
 ];
