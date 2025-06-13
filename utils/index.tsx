@@ -194,7 +194,7 @@ export const PartnersData = [
   },
   {
     id: 7,
-    Logo: "/ctwglobal.png",
+    Logo: "/ct-w.png",
   },
 ];
 
