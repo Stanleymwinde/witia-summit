@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Heading, Image, Text } from "@chakra-ui/react";
+import { Box, Button, Flex, Heading, Image, Link, Text } from "@chakra-ui/react";
 
 const Awards = () => {
   return (
@@ -9,42 +9,41 @@ const Awards = () => {
         justify="space-between"
         gap={10}
       >
-        
         {/* LEFT - TEXT CONTENT */}
         <Box flex="1" color="white">
-        <Box mb={8}>
-  <Heading
-    fontSize={{ base: "3xl", md: "5xl" }}
-    color="white"
-    fontWeight="bold"
-    textTransform="uppercase"
-    lineHeight="1.2"
-    textAlign="center"
-  >
-    VIP
-  </Heading>
-  <Heading
-    fontSize={{ base: "3xl", md: "5xl" }}
-    color="white"
-    fontWeight="bold"
-    textTransform="uppercase"
-    lineHeight="1.2"
-    textAlign="center"
-    transform="translateX(-20px)" // shifts text to the left
-  >
-    Networking
-  </Heading>
-  <Heading
-    fontSize={{ base: "3xl", md: "5xl" }}
-    color="white"
-    fontWeight="bold"
-    textTransform="uppercase"
-    lineHeight="1.2"
-    textAlign="center"
-  >
-    Dinner
-  </Heading>
-</Box>
+          <Box mb={8}>
+            <Heading
+              fontSize={{ base: "3xl", md: "5xl" }}
+              color="white"
+              fontWeight="bold"
+              textTransform="uppercase"
+              lineHeight="1.2"
+              textAlign="center"
+            >
+              VIP
+            </Heading>
+            <Heading
+              fontSize={{ base: "3xl", md: "5xl" }}
+              color="white"
+              fontWeight="bold"
+              textTransform="uppercase"
+              lineHeight="1.2"
+              textAlign="center"
+              transform="translateX(-20px)"
+            >
+              Networking
+            </Heading>
+            <Heading
+              fontSize={{ base: "3xl", md: "5xl" }}
+              color="white"
+              fontWeight="bold"
+              textTransform="uppercase"
+              lineHeight="1.2"
+              textAlign="center"
+            >
+              Dinner
+            </Heading>
+          </Box>
 
           <Text
             fontSize={{ base: "sm", md: "lg" }}
@@ -62,38 +61,45 @@ const Awards = () => {
             commitment to advancing women who are breaking barriers in science,
             engineering and innovation.
           </Text>
-          <Button
-                bgGradient="to-r"
-                gradientFrom="red.500"
-                gradientTo="orange.700"
-                size="lg"
-                borderRadius="md"
-                px={6}
-                ml={{ base: "0", md: "50px" }}
-              >
-                RESERVE YOUR SEAT
-              </Button>
+<Link
+  href="https://ticketskenya.com/all-events/women-in-stem-africa-summit-2025"
+  target="_blank"
+  rel="noopener noreferrer"
+  ml={{ base: "0", md: "50px" }}
+  style={{ display: "inline-block" }}
+>
+  <Button
+    bgGradient="linear(to-r, #e53e3e, #c05621)"
+    color="white"
+    size="lg"
+    borderRadius="md"
+    px={6}
+    _hover={{ opacity: 0.9 }}
+  >
+    RESERVE YOUR SEAT
+  </Button>
+</Link>
 
         </Box>
 
         {/* RIGHT - IMAGE */}
         <Box flex="1" position="relative" left={{ base: "0", md: "70px" }}>
-  <Image
-    src="/vipnetworkingdinner.jpeg"
-    alt="VIP Networking Dinner"
-    borderTopLeftRadius="80px"
-    width="100%"
-    height={{ base: "500px", md: "500px" }}  // Increase height based on screen size
-    objectFit="cover"
-  />
-</Box>
-
+          <Image
+            src="/vipnetworkingdinner.jpeg"
+            alt="VIP Networking Dinner"
+            borderTopLeftRadius="80px"
+            width="100%"
+            height={{ base: "500px", md: "500px" }}
+            objectFit="cover"
+          />
+        </Box>
       </Flex>
     </Box>
   );
 };
 
 export default Awards;
+
 
 
 
