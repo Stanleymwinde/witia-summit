@@ -41,7 +41,7 @@ export const SpeakersData = [
     name: "Claire Matuku",
     title: "Machine Learning Engineer",
     subtitle: "Panel Discussion",
-    imageUrl: "claire.webp",
+    imageUrl: "susaan.jpg",
     bio: "Claire is a statistician, data scientist and AI enthusiast currently based in Nairobi Kenya. She has acquired hands-on experience in the implementation of various AI and Data Science techniques to benefit businesses and clients across the world. Her current goal is to build AI driven systems that solve problems for her community, for Africa and for the world at large.",
   },
   {
