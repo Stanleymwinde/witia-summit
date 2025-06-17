@@ -115,11 +115,11 @@ export const SpeakersData = [
     bio: "Dr Bright Gameli Mawudor is a cybersecurity tsar, with a PhD (which he got at 28) in IT Convergence and Application Engineering with a concentration in Information Security from Pukyong National University, South Korea. Have things turned out as expected at his age? “Unexpectedly. For instance, I founded Africahackon nine years ago, the first-ever hands-on cybersecurity conference in East Africa that aims to bring awareness with live demonstrations of how hacking happens, which has since grown into a juggernaut, and it’s amazing to see children doing cybersecurity.",
   },
   {
-    name: "Maureen Gitau",
-    title: "Oxfam International",
+    name: "Maureen Mung'ara",
+    title: "Founder Social Media Marketers Africa.",
     subtitle: "Panel Discussion",
-    imageUrl: "maureen.jpg",
-    bio: " Digital Lead for one of Oxfam's biggest advocacy.mju9m",
+    imageUrl: "maureen-m.jpg",
+    bio: "Maureen is a Social Media Sales Strategist, Trainer, and Community Leader dedicated to teaching Business Owners how to Make Crazy Sales on Social Media & turns silent followers into instant buyers! She also coaches and mentors Aspiring Social Media Managers. As the founder of Social Media Managers Africa, one of the fastest-growing communities of its kind, she has trained over 2000+ social media managers and over 1,000+ business owners, equipping them with the skills and strategies needed to turn content into revenue. Maureen is more than a social media strategist—she is a visionary leader. Driven by the belief that the future of social media is African, she is on a mission to equip and position African Social Media Professionals to lead the industry globally. Africa is no longer just a participant in the global economy — it is the future. The world is turning to Africa for Innovation, Leadership, and Transformation, and she is here to accelerate that shift. Her vision is to position Africa at the forefront of Global Influence, proving that we are not just consumers of trends; —We are the Trendsetters, the Pioneers, and the Architects of the Future",
   },
   {
     name: "Paul Brian",
@@ -129,7 +129,7 @@ export const SpeakersData = [
     bio: " Paul Brian is a Cybersecurity Engineer at Kenya Commercial Bank Group with proven expertise in security design and architecture, penetration testing, application security, DevSecOps, cloud security, data privacy, and data protection. He is the author of Parenting in the Digital Era, among other books, a writer, and a seasoned speaker on cybersecurity, internet safety, and digital governance, leadership and personal growth. Paul is also the Founder and Host of the Success Ladder Podcast, a global platform spotlighting powerful conversations on leadership, personal growth, entrepreneurship, and impactful success stories.",
   },
   {
-    name: "Susan Gitaru",
+    name: "Susan Gatura",
     title: "Founder of Phoenix KE Analytics",
     subtitle: "Panel Discussion",
     imageUrl: "Susan_Gatura_photo.jpg",
