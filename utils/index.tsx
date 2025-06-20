@@ -37,6 +37,27 @@ export const IndustryFocusData = [
 ];
 
 export const SpeakersData = [
+   {
+    name: "Radhika Bhachu",
+    title: "Founder of Ndovu",
+    subtitle: "Keynote Speaker",
+    imageUrl: "rhadhika.webp",
+    bio: "Radhika has over 14 years of international experience in the financial services industry where she advised clients on how to invest their savings at BlackRock (London) as a Relationship Director.",
+  },
+  {
+    name: "Grace Murugi Wanjama",
+    title: "Head of Digital Strategy",
+    subtitle: "Keynote Speaker",
+    imageUrl: "grace.jpg",
+    bio: "Grace Murugi is a Christian marketplace leader and an award-winning digital strategist. She is reputed for linking digital campaigns to business growth, social impact and brand equity. With a keen eye for new market share, she offers a unique blend of leadership, vision, and knowledge of holistic digital strategy and implementation. She worked at WPP Scangroup, handling consumer packaged goods for Unilever and Kimberly-Clark, and then transitioned to Safaricom, where she was Digital Lead for close to 5 years. In this capacity, she championed the insourcing of digital media for Safaricom, as well as campaigns like Eliud 159 and the M-Pesa App, among many other campaigns. She then transitioned to Oxfam as the Head of Digital Strategy and has championed the influence of humanitarian work on the global digital landscape. She is excited about the impact work that she is a part of delivering at Oxfam. Grace is also a seasoned entrepreneur. She founded a business, scaled it and then sold it last year. She is also a Top 40 under 40 Women in Kenya 2023 recipient. ",
+  },
+   {
+    name: "Bright Gameli",
+    title: "Cyber Security Engineer",
+    subtitle: "Keynote Speaker",
+    imageUrl: "bright.jpg",
+    bio: "Dr Bright Gameli Mawudor is a cybersecurity tsar, with a PhD (which he got at 28) in IT Convergence and Application Engineering with a concentration in Information Security from Pukyong National University, South Korea. Have things turned out as expected at his age? “Unexpectedly. For instance, I founded Africahackon nine years ago, the first-ever hands-on cybersecurity conference in East Africa that aims to bring awareness with live demonstrations of how hacking happens, which has since grown into a juggernaut, and it’s amazing to see children doing cybersecurity.",
+  },
   {
     name: "Claire Matuku",
     title: "Machine Learning Engineer",
@@ -65,13 +86,7 @@ export const SpeakersData = [
     imageUrl: "james.png",
     bio: "James Ayugi, the visionary behind Webmasters Kenya Ltd, has over 20 years of experience in the technology sector. As the Founder and CEO, he has played a pivotal role in establishing the company as a trusted partner for organizations looking to implement modern, scalable technology solutions. James is also the Founder of eCitizen Kenya, an initiative that revolutionized access to government services across Kenya. His leadership is grounded in a deep understanding of business needs and a passion for driving digital transformation. James continues to lead with strategic foresight, ensuring Webmasters Kenya remains at the forefront of the tech industry in Africa.",
   },
-  {
-    name: "Grace Murugi Wanjama",
-    title: "Head of Digital Strategy",
-    subtitle: "Keynote Speaker",
-    imageUrl: "grace.jpg",
-    bio: "Grace Murugi is a Christian marketplace leader and an award-winning digital strategist. She is reputed for linking digital campaigns to business growth, social impact and brand equity. With a keen eye for new market share, she offers a unique blend of leadership, vision, and knowledge of holistic digital strategy and implementation. She worked at WPP Scangroup, handling consumer packaged goods for Unilever and Kimberly-Clark, and then transitioned to Safaricom, where she was Digital Lead for close to 5 years. In this capacity, she championed the insourcing of digital media for Safaricom, as well as campaigns like Eliud 159 and the M-Pesa App, among many other campaigns. She then transitioned to Oxfam as the Head of Digital Strategy and has championed the influence of humanitarian work on the global digital landscape. She is excited about the impact work that she is a part of delivering at Oxfam. Grace is also a seasoned entrepreneur. She founded a business, scaled it and then sold it last year. She is also a Top 40 under 40 Women in Kenya 2023 recipient. ",
-  },
+  
   {
     name: "Quinter Ochieng",
     title: "CEO at WECHARGE",
@@ -100,13 +115,7 @@ export const SpeakersData = [
     imageUrl: "abigail.jpg",
     bio: "Abigaill Okello is the Executive Director of Solar Mtaani, a social enterprise dedicated to providing clean, affordable, and sustainable solar energy solutions to underserved communities in Kenya. With a deep commitment to energy justice and community development, Abigaill leads the organisation with a vision of lighting up lives—literally and figuratively—through accessible solar technology. Under her leadership, Solar Mtaani has focused on bridging the energy gap in informal settlements and rural areas, promoting not just energy access but also education, economic empowerment, and environmental sustainability. Abigaill's approach blends grassroots engagement with strategic partnerships, ensuring that the solutions Solar Mtaani delivers are inclusive, scalable, and community-driven. Her background in social impact and organisational leadership enables her to champion both operational excellence and social equity. She believes that every household deserves the dignity of reliable power, and she is passionate about ensuring that clean energy reaches the last mile. Abigaill is not only a leader but also an advocate, working at the intersection of innovation, advocacy, and community to transform the energy landscape from the ground up.",
   },
-  {
-    name: "Radhika Bhachu",
-    title: "Founder of Ndovu",
-    subtitle: "Keynote Speaker",
-    imageUrl: "rhadhika.webp",
-    bio: "Radhika has over 14 years of international experience in the financial services industry where she advised clients on how to invest their savings at BlackRock (London) as a Relationship Director.",
-  },
+  
   {
     name: "Bright Gameli",
     title: "Cyber Security Engineer",
@@ -195,6 +204,10 @@ export const PartnersData = [
   {
     id: 7,
     Logo: "/ct-w.png",
+  },
+   {
+    id: 7,
+    Logo: "/afwitrade.jpeg",
   },
 ];
 
