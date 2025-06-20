@@ -14,7 +14,7 @@ import {
 import React, { useState } from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
 
-const ITEMS_PER_PAGE = 8;
+const ITEMS_PER_PAGE = 12;
 
 const Speakers = () => {
   const [selectedSpeaker, setSelectedSpeaker] = useState<any>(null);
