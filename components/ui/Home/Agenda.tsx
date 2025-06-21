@@ -8,7 +8,7 @@ const agendaData: Record<string, { time: string; title: string }[]> = {
     { time: '8:00 AM - 9:00 AM', title: 'Welcome and Registration' },
     { time: '9:00 AM - 10:00 AM', title: 'Opening Ceremony' },
     { time: '10:00 AM - 10:25 AM', title: 'Innovation Showcase Tour, Networking Break' },
-    { time: '10:30 AM - 11:15 AM', title: 'Ministerial Policy Dialogue' },
+    { time: '10:30 AM - 11:15 AM', title: 'Shaping Inclusive Technology Policies in Africa: Ministerial Policy Dialogue' },
     { time: '11:15 AM - 11:40 AM', title: 'Keynote: Harnessing AI and Machine Learning for Africa’s Development' },
     { time: '11:40 AM - 12:30 PM', title: 'Panel Discussion: How AI can address challenges in healthcare, agriculture, and education' },
     { time: '12:30 PM - 1:30 PM', title: 'Lunch Break' },
