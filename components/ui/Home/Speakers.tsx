@@ -96,6 +96,14 @@ const Speakers = () => {
                 <Text fontSize="sm" color="gray.600">
                   {item.title}
                 </Text>
+
+                {/* 🔁 ADDED: organization */}
+                {item.organization && (
+                  <Text fontSize="sm" color="gray.500">
+                    {item.organization}
+                  </Text>
+                )}
+
                 <Text fontSize="sm" color="blue.500" mb={3}>
                   {item.subtitle}
                 </Text>
@@ -176,6 +184,14 @@ const Speakers = () => {
                 />
                 <Heading mb={2}>{selectedSpeaker.name}</Heading>
                 <Text fontWeight="semibold">{selectedSpeaker.title}</Text>
+
+                {/* 🔁 ADDED: organization */}
+                {selectedSpeaker.organization && (
+                  <Text color="gray.500" fontSize="sm">
+                    {selectedSpeaker.organization}
+                  </Text>
+                )}
+
                 <Text fontStyle="italic" mb={4} color="blue.500">
                   {selectedSpeaker.subtitle}
                 </Text>
@@ -190,6 +206,7 @@ const Speakers = () => {
 };
 
 export default Speakers;
+
 
 
 
