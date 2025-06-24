@@ -131,7 +131,7 @@ export const SpeakersData = [
     title: "Founder",
     organization: "Social Media Managers Africa",
     subtitle: "Panel Discussion",
-    imageUrl: "maureen-m.jpg",
+    imageUrl: "Mauren-m.png",
     bio: "Maureen is a Social Media Sales Strategist, Trainer, and Community Leader dedicated to teaching Business Owners how to Make Crazy Sales on Social Media & turns silent followers into instant buyers! She also coaches and mentors Aspiring Social Media Managers. As the founder of Social Media Managers Africa, one of the fastest-growing communities of its kind, she has trained over 2000+ social media managers and over 1,000+ business owners, equipping them with the skills and strategies needed to turn content into revenue. Maureen is more than a social media strategist—she is a visionary leader. Driven by the belief that the future of social media is African, she is on a mission to equip and position African Social Media Professionals to lead the industry globally. Africa is no longer just a participant in the global economy — it is the future. The world is turning to Africa for Innovation, Leadership, and Transformation, and she is here to accelerate that shift. Her vision is to position Africa at the forefront of Global Influence, proving that we are not just consumers of trends; —We are the Trendsetters, the Pioneers, and the Architects of the Future",
   },
   {
