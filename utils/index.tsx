@@ -111,6 +111,14 @@ export const SpeakersData = [
     bio: "Melody Mukhwana is the Founder & CEO of Humainly AI, a consultancy helping African businesses adopt human-centered AI tools that boost performance, reduce burnout, and build scalable systems with heart. With a background in counseling psychology and five years in AI strategy and execution, she bridges the gap between cutting-edge tech and real human needs. Melody is passionate about making AI more accessible, championing women in tech, and helping teams unlock intentional growth through bold strategy, empathy, and innovation that feels deeply human.",
   },
   {
+    name: "Eng. Faith Mueni",
+    title: "Tech Lead",
+    organization: "Huawei",
+    subtitle: "Panel Discussion",
+    imageUrl: "faith-m.jpeg",
+    bio: "Eng. Mueni Faith is a tech leader at Huawei Kenya, serving as a Brand Ambassador, IP Solution Architect, and key coordinator for women in tech Huawei. With a degree in Electrical and Electronic Engineering from the Technical University of Kenya, she has over 2.5 years of experience in telecommunications, advancing from Wireless Engineer to strategic solution roles. Passionate about gender inclusion in STEM, she has led and participated in over 30 empowerment events, mentoring young women and advocating for equal representation in tech especially the “Gen Z” space. Her work continues to inspire and drive digital transformation across Kenya.",
+  },
+  {
     name: "Dr. Tayba Hatimy",
     title: "Co-Founder & Executive Director",
     organization: "Baus Taka",
