@@ -166,6 +166,31 @@ export const SpeakersData = [
     imageUrl: "Catherine.jpg",
     bio: "Catherine Jeruto is a cybersecurity leader and mentor, acclaimed for her ability to create user-focused security awareness programs that help organizations worldwide turn technical risks into practical strategies. She blends academic knowledge with real-world experience to develop multilingual training, board-level cybersecurity frameworks, and risk-aware cultures, especially within financial and civil society sectors. Catherine has led large-scale security campaigns, reduced phishing risks via customized workshops, and directed vulnerability management teams to strengthen infrastructure. Recognized as one of the Top 100 Cybersecurity Women to Watch in Africa (2024), she also leads a working group at the Kenya Cybersecurity and Forensics Association and actively mentors, speaks at conferences, and forges partnerships to make cybersecurity accessible to all. Qualifications; Bsc. Computer Science, ISC2 Certified in Cybersecurity (CC), Information Technology Infrastructure Library (ITIL) v4, Certified Ethical Hacker (CEH).",
   },
+  {
+    name: "Dr. Fred Mutisya",
+    title: "Artificial Intelligence Consultant",
+    organization: "smartbiotic.ai",
+    subtitle: "Panel Discussion",
+    imageUrl: "Fred.JPG",
+    bio: "Dr. Fred Mutisya is a practicing medical doctor and an award-winning AI developer. He completed his Bachelor's degree in Medicine and Surgery at the University of Nairobi in 2013. He is undertaking a Masters in Data Science at University of East London and a Master’s in Field Epidemiology degree sponsored by the CDC. He is the Health Tech Lead at Qhala where he leads the work around Health AI sandboxes and Health AI models. He is an avid AI developer who most recent solution on AI and Antibiotics won the Impact prize presented at Vienna, Austria.He volunteers in the Kenyan HIV program and is a recipient of the 2020 PEPFAR Heroes award. He is  the ICT/AI lead at the Kenya Medical Association and Kenyan Health Informatics association. Dr. Fred enjoys playing jazz guitar as his creative outlet."
+  },
+   {
+    name: "Gatwiri Njogu",
+    title: "CEO & Founder",
+    organization: "VunaPay Solutions",
+    subtitle: "Panel Discussion",
+    imageUrl: "Gatwiri_Njogu.jpeg",
+    bio: "Gatwiri Njogu-Mokaya is a leader in the technology and FinTech industries, boasting over 15 years of rich experience. As the CEO and Co-Founder of VunaPay Solutions Limited, a Kenyan FinTech startup in Agriculture, she hasinnovatively transformed and accelerated payments to farmers.Her career journey includes pivotal roles such as the Director of BusinessDevelopment & Strategy for Africa at Oracle Corporation, where she played a keyrole in strategy and driving business growth across the continent. Her tenure atSafaricom PLC as Product & Business Development Manager saw her pioneering and driving Safaricom's ambitions in mobile health, learning, agriculture, and financial inclusion, showcasing her commitment to social innovation. An entrepreneur by nature, Gatwiri also co-founded businesses in construction and fashion, reaching global markets. Gatwiri holds a BSc in Medical Technology with honors from Michigan State University. She has contributed her time and expertise to various boards and panels, including the UNFPA Private Sector Advisory Panel, WHO's Partnership for Maternal New-born &Child Health and various Kenya Vision 2030 advisory panels.In her personal life, Gatwiri is a devoted wife and doting mother of three"
+  },
+
+  {
+    name: "Dr. Fred M",
+    title: "CEO & Founder",
+    organization: "VunaPay Solutions",
+    subtitle: "Panel Discussion",
+    imageUrl: "Gatwiri_Njogu.jpeg",
+    bio: "Gatwiri Njogu-Mokaya is a leader in the technology and FinTech industries, boasting over 15 years of rich experience. As the CEO and Co-Founder of VunaPay Solutions Limited, a Kenyan FinTech startup in Agriculture, she hasinnovatively transformed and accelerated payments to farmers.Her career journey includes pivotal roles such as the Director of BusinessDevelopment & Strategy for Africa at Oracle Corporation, where she played a keyrole in strategy and driving business growth across the continent. Her tenure atSafaricom PLC as Product & Business Development Manager saw her pioneering and driving Safaricom's ambitions in mobile health, learning, agriculture, and financial inclusion, showcasing her commitment to social innovation. An entrepreneur by nature, Gatwiri also co-founded businesses in construction and fashion, reaching global markets. Gatwiri holds a BSc in Medical Technology with honors from Michigan State University. She has contributed her time and expertise to various boards and panels, including the UNFPA Private Sector Advisory Panel, WHO's Partnership for Maternal New-born &Child Health and various Kenya Vision 2030 advisory panels.In her personal life, Gatwiri is a devoted wife and doting mother of three"
+  },
 ];
 
 export const AwardsData = [
