@@ -54,7 +54,7 @@ export const SpeakersData = [
     bio: "Grace Murugi is a Christian marketplace leader and an award-winning digital strategist. She is reputed for linking digital campaigns to business growth, social impact and brand equity. With a keen eye for new market share, she offers a unique blend of leadership, vision, and knowledge of holistic digital strategy and implementation. She worked at WPP Scangroup, handling consumer packaged goods for Unilever and Kimberly-Clark, and then transitioned to Safaricom, where she was Digital Lead for close to 5 years. In this capacity, she championed the insourcing of digital media for Safaricom, as well as campaigns like Eliud 159 and the M-Pesa App, among many other campaigns. She then transitioned to Oxfam as the Head of Digital Strategy and has championed the influence of humanitarian work on the global digital landscape. She is excited about the impact work that she is a part of delivering at Oxfam. Grace is also a seasoned entrepreneur. She founded a business, scaled it and then sold it last year. She is also a Top 40 under 40 Women in Kenya 2023 recipient. ",
   },
    {
-    name: "Bright Gameli",
+    name: "Dr. Bright Gameli",
     title: "ICT Advisory Team",
     organization: "United States International University",
     subtitle: "Keynote Speaker",
@@ -87,8 +87,8 @@ export const SpeakersData = [
   },
   {
     name: "James Ayugi",
-    title: "Founder",
-    organization: "POSNET",
+    title: "CEO & Founder",
+    organization: "Webmasters",
     subtitle: "Fireside Chat",
     imageUrl: "james.png",
     bio: "James Ayugi, the visionary behind Webmasters Kenya Ltd, has over 20 years of experience in the technology sector. As the Founder and CEO, he has played a pivotal role in establishing the company as a trusted partner for organizations looking to implement modern, scalable technology solutions. James is also the Founder of eCitizen Kenya, an initiative that revolutionized access to government services across Kenya. His leadership is grounded in a deep understanding of business needs and a passion for driving digital transformation. James continues to lead with strategic foresight, ensuring Webmasters Kenya remains at the forefront of the tech industry in Africa.",
@@ -184,12 +184,12 @@ export const SpeakersData = [
   },
 
   {
-    name: "Dr. Fred M",
-    title: "CEO & Founder",
-    organization: "VunaPay Solutions",
+    name: "Wanjiru Mburu",
+    title: "Head of Research",
+    organization: "Qhyala",
     subtitle: "Panel Discussion",
-    imageUrl: "Gatwiri_Njogu.jpeg",
-    bio: "Gatwiri Njogu-Mokaya is a leader in the technology and FinTech industries, boasting over 15 years of rich experience. As the CEO and Co-Founder of VunaPay Solutions Limited, a Kenyan FinTech startup in Agriculture, she hasinnovatively transformed and accelerated payments to farmers.Her career journey includes pivotal roles such as the Director of BusinessDevelopment & Strategy for Africa at Oracle Corporation, where she played a keyrole in strategy and driving business growth across the continent. Her tenure atSafaricom PLC as Product & Business Development Manager saw her pioneering and driving Safaricom's ambitions in mobile health, learning, agriculture, and financial inclusion, showcasing her commitment to social innovation. An entrepreneur by nature, Gatwiri also co-founded businesses in construction and fashion, reaching global markets. Gatwiri holds a BSc in Medical Technology with honors from Michigan State University. She has contributed her time and expertise to various boards and panels, including the UNFPA Private Sector Advisory Panel, WHO's Partnership for Maternal New-born &Child Health and various Kenya Vision 2030 advisory panels.In her personal life, Gatwiri is a devoted wife and doting mother of three"
+    imageUrl: "Wanjiru_headshot_1.jfif",
+    bio: "Wanjiru Mburu is a human-computer interaction for development (HCI4D) researcher passionate about designing technology that solves African problems in ways that closely resemble African cultures, peoples, resources, knowledge and ways of life. She has over 10 years of experience in social impact research from all over Africa, including in Kenya, South Africa, Nigeria, Ghana, Tanzania and Uganda. Intent on promoting Human-Computer Interaction (HCI) in and from Africa, Wanjiru has been part of the technical committee that organised the HCI conference in Africa (AFRICHI) from 2016 to date. She is a peer reviewer for conferences such as COMPASS and the ACM conference on Human Factors in Computing Systems (CHI). She is currently working for Qhala, where she is exploring the design of technologies that cater to the needs of Africans and the globe at large. She holds a PhD and a Master's degree from the Department of Computer Science, University of Cape Town."
   },
 ];
 
