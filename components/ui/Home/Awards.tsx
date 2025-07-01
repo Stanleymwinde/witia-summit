@@ -1,4 +1,12 @@
-import { Box, Button, Flex, Heading, Image, Link, Text } from "@chakra-ui/react";
+import {
+  Box,
+  Button,
+  Flex,
+  Heading,
+  Image,
+  Link,
+  Text,
+} from "@chakra-ui/react";
 
 const Awards = () => {
   return (
@@ -61,25 +69,24 @@ const Awards = () => {
             commitment to advancing women who are breaking barriers in science,
             engineering and innovation.
           </Text>
-<Link
-  href="https://ticketskenya.com/all-events/women-in-stem-africa-summit-2025"
-  target="_blank"
-  rel="noopener noreferrer"
-  ml={{ base: "0", md: "50px" }}
-  style={{ display: "inline-block" }}
->
-  <Button
-    bgGradient="linear(to-r, #e53e3e, #c05621)"
-    color="white"
-    size="lg"
-    borderRadius="md"
-    px={6}
-    _hover={{ opacity: 0.9 }}
-  >
-    RESERVE YOUR SEAT
-  </Button>
-</Link>
-
+          <Link
+            href="https://ticketskenya.com/event/women-in-stem-africa-summit-2025/ticket/87"
+            target="_blank"
+            rel="noopener noreferrer"
+            ml={{ base: "0", md: "50px" }}
+            style={{ display: "inline-block" }}
+          >
+            <Button
+              bgGradient="linear(to-r, #e53e3e, #c05621)"
+              color="white"
+              size="lg"
+              borderRadius="md"
+              px={6}
+              _hover={{ opacity: 0.9 }}
+            >
+              RESERVE YOUR SEAT
+            </Button>
+          </Link>
         </Box>
 
         {/* RIGHT - IMAGE */}
@@ -99,8 +106,3 @@ const Awards = () => {
 };
 
 export default Awards;
-
-
-
-
-

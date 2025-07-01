@@ -1,5 +1,6 @@
 import { MarginX, PartnersData } from "@/utils";
 import { Box, Button, Flex, Grid, Heading } from "@chakra-ui/react";
+import Link from "next/link";
 import React from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
 
@@ -20,12 +21,16 @@ const Partners = () => {
           </Heading>
 
           {/* Using an anchor tag for the link */}
-          <a href="https://ticketskenya.com/all-events/women-in-stem-africa-summit-2025" target="_blank" rel="noopener noreferrer">
+          <Link
+            href="mailto:ian@witia.africa"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Button bg="blue.500" color={"white"} variant="outline" size="md">
               Become a Sponsor
               <FaArrowRightLong />
             </Button>
-          </a>
+          </Link>
         </Flex>
 
         <Grid
