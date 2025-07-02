@@ -184,12 +184,28 @@ export const SpeakersData = [
   },
 
   {
+    name: "Ruby Alcantra",
+    title: "CEO & founder",
+    organization: "Supivaa Advisory Group Ltd",
+    subtitle: "Fireside Chat",
+    imageUrl: "Ruby.png",
+    bio: "Ruby is a seasoned entrepreneur, impact investment practitioner, and executive business consultant with over a decade of experience supporting businesses, entrepreneurs, and investors across Africa, the US, UK, and Europe. She is the Founder of Supivaa Advisory Group, a boutique consultancy based in Vancouver and Nairobi that offers impact investment advisory, technical assistance, and business development services. Supivaa operates with a strong gender-lens investing focus, supporting ventures in climate change, agriculture, and healthcare in Africa. Ruby has held executive roles including CEO, COO, CMO, and Managing Director in organizations backed by USAID, the EU Commission, DFIs, and European impact investors. She brings deep sector expertise in healthcare, agriculture, renewable energy, and fintech, and has lived and worked in 16 countries across Europe and Africa.She currently serves on the Board of the *Canadian Forum for Impact Investment & Development (CAFIID), is a Senior Advisor to Uhusiano Capital (UK), and is an Activator at Coralus (formerly SheEO). Ruby holds an MBA from IE Business School and a BA in Communications and Political Science from Simon Fraser University."
+  },
+   {
     name: "Wanjiru Mburu",
     title: "Head of Research",
-    organization: "Qhyala",
+    organization: "Qhala",
     subtitle: "Panel Discussion",
     imageUrl: "Wanjiru_headshot_1.jfif",
     bio: "Wanjiru Mburu is a human-computer interaction for development (HCI4D) researcher passionate about designing technology that solves African problems in ways that closely resemble African cultures, peoples, resources, knowledge and ways of life. She has over 10 years of experience in social impact research from all over Africa, including in Kenya, South Africa, Nigeria, Ghana, Tanzania and Uganda. Intent on promoting Human-Computer Interaction (HCI) in and from Africa, Wanjiru has been part of the technical committee that organised the HCI conference in Africa (AFRICHI) from 2016 to date. She is a peer reviewer for conferences such as COMPASS and the ACM conference on Human Factors in Computing Systems (CHI). She is currently working for Qhala, where she is exploring the design of technologies that cater to the needs of Africans and the globe at large. She holds a PhD and a Master's degree from the Department of Computer Science, University of Cape Town."
+  },
+  {
+    name: "Susan Auma Mang'eni",
+    title: "Principal Secretary",
+    organization: "MSME",
+    subtitle: "Fireside Chat",
+    imageUrl: "Hon. Susan.jpeg",
+    bio: "HON. SUSAN AUMA MANG’ENI is the Principal Secretary of the newly established State   Department of   Micro Small and Medium Enterprises (MSME) Development under the   Ministry of Cooperative and Micro   Small and Medium Enterprises (MSME). She is a   governance and development expert with close to 15   years’ experience in both the private   and public sectors in areas of strategic leadership, public policy   formulation, analysis and   implementation, enterprise development, institutional building, oversight, youth   and women   empowerment. Prior to her current appointment, Hon. Susan Mang’eni served on the Boards of the Youth   Enterprise   Development Fund (YEDF), Kenya Institute of Public Policy Research and   Analysis (KIPPRA) and The   Competition Tribunal of Kenya. She was also a member of the   Working group on the socio-economic   audit of the constitution of Kenya 2010, under the   office of the Auditor General where she handled the assessment of the impact of the   constitution of Kenya 2010, on governance and public institutions. The findings from the   exercise were tabled in the National Assembly in 2016 to help shape the government   policies  and programmes.In the Private sector, Hon. Susan Mang’eni has engaged in consultancies and discourses focused on socio-economic and political transformation across the country, region and beyond, gaining global perspectives and insights that continue to impact on her contributions in the public policy arena. She is also part of the team that participated in the economic visioning of the Kenya Kwanza Manifesto (The Plan), in particular her role in the development of Western Region Economic Blue Prints Document. Hon. Susan Mang’eni holds an MA in Entrepreneurship Development and a BA in Political Science and Public Administration both from the University of Nairobi. She is also, an alumnus of the 2011 International Visitors Leadership Programme (IVLP) a US State department Exchange programme. She is a network member of the Mandela Institute for Development Studies (MINDS), the Women Democracy Network (WDN) and the Women Waging Peace International and the Pan African Movement."
   },
 ];
 
